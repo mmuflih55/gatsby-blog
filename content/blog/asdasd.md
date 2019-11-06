@@ -1,5 +1,5 @@
 ---
-path: test blog
+path: lalala
 date: 2019-11-06T23:10:58.360Z
 title: asdasd
 description: asd
