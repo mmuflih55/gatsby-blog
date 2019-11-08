@@ -57,9 +57,7 @@ const Layout = ({ children }) => {
   return (
     <Wrapper>
       <Header/>
-      <Container>
         <main>{children}</main>
-      </Container>
       <Footer/>
     </Wrapper>
   )

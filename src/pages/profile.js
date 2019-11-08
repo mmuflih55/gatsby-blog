@@ -7,7 +7,7 @@ const Profile = (props) => {
 
     return (
         <Layout location={props.location} title='portofilio'>
-            <div className={classes.profileBg} style={{ position: 'absolute', top: 65, display: 'flex', alignContent: 'center', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+            <div className={classes.profileBg} style={{ top: 150, display: 'flex', alignContent: 'center', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
                 <div style={{ display: 'flex', alignContent: 'center', justifyContent: 'center', flexDirection: 'column', alignItems: 'center', minHeight: '85vh', width: '100vw', color: 'white' }}>
                     <h1>Hi, I'm Muhammad Muflih</h1>
                     <h2>Software Engineer with {new Date().getFullYear() - 2017},{new Date().getMonth() - 2} years experiences</h2>

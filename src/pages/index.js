@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 // import { Container, Grid, Paper, Card, CircularProgress, CardMedia, CardContent } from '@material-ui/core';
-import { Grid, Paper, Card, CardContent } from '@material-ui/core';
+import { Container, Grid, Paper, Card, CardContent } from '@material-ui/core';
 import useStyles from '../Style/Style';
 
 
@@ -18,6 +18,7 @@ const Blog = (props) => {
   const posts = data.allMdx.edges
   return (
     <Layout location={props.location} title={siteTitle}>
+      <Container style={{paddingTop: 15}}>
       <SEO title="All posts" />
       {/* {JSON.stringify(posts)} */}
       {/* <Paper>
@@ -108,6 +109,7 @@ const Blog = (props) => {
           </Paper>
         </Grid>
       </Grid>
+      </Container>
     </Layout>
   )
 }

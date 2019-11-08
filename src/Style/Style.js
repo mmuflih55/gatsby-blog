@@ -33,7 +33,10 @@ const useStyles = makeStyles(theme => ({
         }
     },
     container: {
-        padding: '5px 15px 5px 15px'
+        padding: '5px 15px 5px 15px',
+        [theme.breakpoints.up('sm')]: {
+            padding: '10px 25px 10px 25px'
+        },
     },
     menuButton: {
         marginRight: theme.spacing(2),
