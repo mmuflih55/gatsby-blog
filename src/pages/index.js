@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 // import { Container, Grid, Paper, Card, CircularProgress, CardMedia, CardContent } from '@material-ui/core';
-import { Container, Grid, Paper, Card, CardContent } from '@material-ui/core';
+import { Container, Grid, Paper, Card, CardContent , InputBase} from '@material-ui/core';
 import useStyles from '../Style/Style';
 
 
@@ -56,12 +56,12 @@ const Blog = (props) => {
             {/* <div className={classes.searchIcon}>
                             <Search />
                         </div> */}
-            {/* <InputBase
-                            onKeyDown={search}
+            <InputBase
+                            // onKeyDown={search}
                             placeholder="Enter Search "
                             className={classes.search}
                             inputProps={{ 'aria-label': 'search' }}
-                        /> */}
+                        />
             {/* </div> */}
           </Paper>
         </Grid>

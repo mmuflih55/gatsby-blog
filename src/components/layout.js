@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 
 // import { rhythm, scale } from "../utils/typography"
-import { Container } from "@material-ui/core"
 import Header from './Header';
 import Footer from './Footer';
 
