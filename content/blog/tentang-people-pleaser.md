@@ -17,25 +17,18 @@ Mungkin bisa dibilang karna situasi, gw dulu hidup dengan damai sentosa tidak ad
 
 Masalah bermula ketika gw gabisa bilang ngga, waktu awal2 sekalipun gw berani nolak biasanya kalah dengan kalimat "masa gitu aja gabisa? itu kan harusnya gampang" atau "tolong nih mas, butuh bgt dikerjain cepet, kalo bisa besok harus udah jadi", dll.. Ketika dengan seenaknya client lu bisa menjajah lu, maka stress akan kerjaan pun akan muncul.. wkwkwk, gara2 itu gw sampe ga tidur seminggu... sampe akhirnya senior gw tau.. lalu apakah yang terjadi? gw diomelin juga ama senior gw wkwkwk. Gw dibilang bukan robot, knapa mau2 aja dah disuruh kerja gitu...
 
-akhirnya untuk meminimalisir kejadian kaya gitu terulang, gw berusaha:\
+akhirnya untuk meminimalisir kejadian kaya gitu terulang, gw berusaha:
+
+
+
 1. **Sedikit lebih egois di dunia kerja**\
-kalo skill lu dipertanyakan karna gabisa menyanggupi permintaan client lu, yaudah.. gausah maksain. \
-Atau ketika client lu curhat2 dia dpt masalah kalo ga cpt dll yaudah.. itu masalah dia, bukan masalah lu... karna dia menjalin kerja sama dengan kantor lu, bukan dengan lu.. kalo dia butuh sesuatu harusnya ngomong ke PM, nanti biar pm yang eskalasi ke team untuk pecahain masalah ini.. \
-Inget, lu punya kehidupan, jangan sampe mau disuruh kerja tanpa dibayar 
-
+   kalo skill lu dipertanyakan karna gabisa menyanggupi permintaan client lu, yaudah.. gausah maksain. \
+   Atau ketika client lu curhat2 dia dpt masalah kalo ga cpt dll yaudah.. itu masalah dia, bukan masalah lu... karna dia menjalin kerja sama dengan kantor lu, bukan dengan lu.. kalo dia butuh sesuatu harusnya ngomong ke PM, nanti biar pm yang eskalasi ke team untuk pecahain masalah ini.. \
+   Inget, lu punya kehidupan, jangan sampe mau disuruh kerja tanpa dibayar 
 2. **Jangan gampang bilang ya**\
-ketika lu udah menggampangkan permintaan client lu (yang aslinya susah) maka itu akan jadi kebiasaaan, ketika udah jadi kebiasaan  dengan gampangnya dia bakal request aneh2, di cerita ini kita sebagai engineer ya.. jadi desicion matter kaya gitu sebaiknya kita gausah ikut2an, kecuali emang punya skill tau itung2an duit dll
-
+   ketika lu udah menggampangkan permintaan client lu (yang aslinya susah) maka itu akan jadi kebiasaaan, ketika udah jadi kebiasaan  dengan gampangnya dia bakal request aneh2, di cerita ini kita sebagai engineer ya.. jadi desicion matter kaya gitu sebaiknya kita gausah ikut2an, kecuali emang punya skill tau itung2an duit dll
 3. **Kuatkan struktur tim**\
-akhirnya, sekarang gw meminimalisir komunikasi dengan client, untuk masalah keputusan atau pun diskusi teknis, boleh lah gw maju.. tapi kalo udah menyangkut masalah duit dan keputusan2 yang menyangkut birokrasi(?) gw menyerhkan semuanya pada PM gw.\
-Intinya lebih inget ke jobdesc masing2 sih.. dan inget perjanjian di awal, jangan mengerjakan apa yang diluar scope
+   akhirnya, sekarang gw meminimalisir komunikasi dengan client, untuk masalah keputusan atau pun diskusi teknis, boleh lah gw maju.. tapi kalo udah menyangkut masalah duit dan keputusan2 yang menyangkut birokrasi(?) gw menyerhkan semuanya pada PM gw.\
+   Intinya lebih inget ke jobdesc masing2 sih.. dan inget perjanjian di awal, jangan mengerjakan apa yang diluar scope
 
-
-
-Ok, kayanya segitu aja curhatan gw.. terima kasih sudah membaca, terima kasih. 
-
-********
-
-****
-
-********
+Ok, kayanya segitu aja curhatan gw.. terima kasih sudah membaca, terima kasih.
