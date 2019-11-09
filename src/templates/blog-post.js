@@ -19,6 +19,7 @@ const BlogPostTemplate = (props) => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
+        image={post.frontmatter.thumbnail}
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />

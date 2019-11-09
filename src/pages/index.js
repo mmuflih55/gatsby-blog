@@ -52,7 +52,7 @@ const Blog = (props) => {
   const posts = data.postlist.edges
   const popular = data.popular.edges
   useEffect(() => {
-    console.log('test')
+    // console.log('test')
   }, [])
   return (
     <Layout location={props.location} title={siteTitle}>
