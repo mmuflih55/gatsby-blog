@@ -53,7 +53,8 @@ function SEO({ description, lang, meta, keywords, title, image }) {
         },
         {
           name: `og:image`,
-          content: "https://mmuflih.com"+image,
+          content: image!=undefined?"https://mmuflih.com"+image:"https://mmuflih.com/assets/icon.png",
+
         },
         {
           name: `twitter:card`,
