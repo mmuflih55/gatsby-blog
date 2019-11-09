@@ -6,7 +6,8 @@ tags: '[''imo'',''random'']'
 thumbnail: /assets/15-light-bulb-rex.jpg
 description: pendapat gw tentang People Pleaser
 ---
-Jadi ceritanya gw baru aja baca artikel tentang people pleaser, buat yang belum tau bisa baca disini\
+Jadi ceritanya gw baru aja baca artikel tentang people pleaser, buat yang belum tau bisa baca disini
+
 <https://www.psychologytoday.com/us/blog/what-mentally-strong-people-dont-do/201708/10-signs-youre-people-pleaser>
 
 Ketika gw baca itu, gw merasa itu adalah hal yang lumrah dan ga ada salahnya.. apalagi buat orang jawa kayak "minta maaf" itu udah diajarin dari kecil.. 
