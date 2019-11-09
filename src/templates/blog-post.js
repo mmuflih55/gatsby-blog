@@ -22,24 +22,34 @@ const BlogPostTemplate = (props) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <Container style={{paddingTop: 15}}>
+      <Container style={{ paddingTop: 15 }}>
         <Grid item xs={12} md={12}>
           <Paper className={classes.container}>
-            <h1 style={{marginTop:10}}>{post.frontmatter.title}</h1>
-           <label>
-             <p
-              style={{
-                ...scale(-1 / 5),
-                display: `block`,
-                marginBottom: rhythm(1),
-                marginTop: rhythm(-1),
-              }}
-            >
-              {post.frontmatter.date},
-              Viewed: {post.timeToRead}
+            <div style={{ minHeight: '70vh' }}>
+              <h1 style={{ marginTop: 10 }}>{post.frontmatter.title}</h1>
+              <label>
+                <p
+                  style={{
+                    ...scale(-1 / 5),
+                    display: `block`,
+                    marginBottom: rhythm(1),
+                    marginTop: rhythm(-1),
+                  }}
+                >
+                  {post.frontmatter.date},
             </p>
-            </label>
-            <MDXRenderer>{post.body}</MDXRenderer>
+              </label>
+              <div style={{display: 'flex', alignContent: 'center',alignItems:'center',width:'100%', justifyContent: 'center'}}>
+                {post.frontmatter.thumbnail ?
+                  // <CardMedia
+                  //   style={{ height: 75, maxWidth: '75%' }}
+                  //   image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail : "assets/icon.png"}
+                  // />
+                  <img src={post.frontmatter.thumbnail} style={{maxWidth: '75%'}}/>
+                  : null}
+              </div>
+              <MDXRenderer>{post.body}</MDXRenderer>
+            </div>
             <ul
               style={{
                 display: `flex`,
@@ -88,6 +98,7 @@ export const pageQuery = graphql`
       body
       timeToRead
       frontmatter {
+        thumbnail
         title
         date(formatString: "MMMM DD, YYYY")
         description

@@ -4,7 +4,7 @@ module.exports = {
     title: `M Muflih Blog`,
     author: `Muhammad Muflih`,
     description: `Blog iseng iseng`,
-    siteUrl: `https://mmuflih55.netlify.com/`,
+    siteUrl: `https://mmuflih.com/`,
     social: {
       twitter: `muh_muflih`,
     },
