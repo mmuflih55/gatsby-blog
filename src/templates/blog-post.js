@@ -26,7 +26,8 @@ const BlogPostTemplate = (props) => {
         <Grid item xs={12} md={12}>
           <Paper className={classes.container}>
             <h1 style={{marginTop:10}}>{post.frontmatter.title}</h1>
-            <p
+           <label>
+             <p
               style={{
                 ...scale(-1 / 5),
                 display: `block`,
@@ -34,8 +35,10 @@ const BlogPostTemplate = (props) => {
                 marginTop: rhythm(-1),
               }}
             >
-              {post.frontmatter.date}
+              {post.frontmatter.date},
+              Viewed: {post.timeToRead}
             </p>
+            </label>
             <MDXRenderer>{post.body}</MDXRenderer>
             <ul
               style={{
@@ -83,6 +86,7 @@ export const pageQuery = graphql`
       id
       excerpt(pruneLength: 160)
       body
+      timeToRead
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

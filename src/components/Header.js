@@ -6,6 +6,7 @@ import { Slide, AppBar, Toolbar, useScrollTrigger, IconButton, ButtonBase, List,
 import MenuIcon from '@material-ui/icons/Menu';
 import { Home, Edit } from '@material-ui/icons';
 import useStyles from '../Style/Style';
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 
 
@@ -70,16 +71,23 @@ const MenuAppBar = () => {
               </IconButton>
             </div>
             <div className={classes.sectionDesktop}>
-              <ButtonBase disableRipple className={classes.noBox} component={Link} to="/">
+              <ButtonBase disableRipple component={Link} to="/">
                 <Typography className={classes.tab} noWrap>
                   Home
                 </Typography>
               </ButtonBase>
-              <ButtonBase disableRipple className={classes.noBox} component={Link} to="/profile">
+              <ButtonBase disableRipple component={Link} to="/profile">
                 <Typography className={classes.tab} noWrap>
                   Profile
                 </Typography>
               </ButtonBase>
+            </div>
+            <div className={classes.grow} />
+            <div>
+              <a href="https://github.com//mmuflih55" rel="noopener noreferrer" target="_blank"><FaGithub style={{ color: 'black',margin:5}} /></a>
+              <a href="https://twitter.com/muh_muflih" rel="noopener noreferrer" target="_blank"><FaTwitter style={{ color: 'black',margin:5}} /></a>
+              <a href="https://www.linkedin.com/in/muhammad-muflih-574b2b71" rel="noopener noreferrer" target="_blank"><FaLinkedin style={{ color: 'black',margin:5}} /></a>
+              <a href="https://www.instagram.com/m_muflih5" rel="noopener noreferrer" target="_blank"><FaInstagram style={{ color: 'black',margin:5}} /></a>
             </div>
           </Toolbar>
         </AppBar>
