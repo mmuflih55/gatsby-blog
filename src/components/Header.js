@@ -83,7 +83,7 @@ const MenuAppBar = () => {
               </ButtonBase>
             </div>
             <div className={classes.grow} />
-            <div>
+            <div className={classes.sectionDesktop}>
               <a href="https://github.com//mmuflih55" rel="noopener noreferrer" target="_blank"><FaGithub style={{ color: 'black',margin:5}} /></a>
               <a href="https://twitter.com/muh_muflih" rel="noopener noreferrer" target="_blank"><FaTwitter style={{ color: 'black',margin:5}} /></a>
               <a href="https://www.linkedin.com/in/muhammad-muflih-574b2b71" rel="noopener noreferrer" target="_blank"><FaLinkedin style={{ color: 'black',margin:5}} /></a>
