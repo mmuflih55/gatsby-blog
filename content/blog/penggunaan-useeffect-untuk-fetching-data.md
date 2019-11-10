@@ -117,7 +117,7 @@ const loadMore = () => {
 
 gw ga manggil fetchData, tapi cuma ubah state offset sama limit maka fetchData akan dipanggil karena pengaruh useEffect seperti yang gw jelaskan diatas..
 
-tarraaaa~ jadilah fungsi loadmore dengan useEffect..\
+tarraaaa~ jadilah fungsi loadmore dengan useEffect..
 kalo pengen coba langsung liat hasilnya bisa liat disini <https://wc8ef.csb.app/>
 
 Terima Kasih sudah membaca
