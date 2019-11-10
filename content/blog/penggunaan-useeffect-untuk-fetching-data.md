@@ -11,9 +11,7 @@ Halo, sebenernya ini tutorial ga penting penting amat karna sebenernya udah ada 
 ok. pertama apa itu useEffetct?
 useEffect adalah API pengganti buat componentDidMount dan componentDidUpdate. pada defaultnya useEffect akan dijalankan setiap pertama kali render, dan setiap ada update
 
-```
 untuk contoh pertama kita pake contoh yang ada di dokumentasinya aja karna gw mager bikin contoh lain wkwkwk
-```
 
 ```
 const Example = () => {
