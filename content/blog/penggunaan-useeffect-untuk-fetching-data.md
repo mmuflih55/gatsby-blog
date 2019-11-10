@@ -14,7 +14,15 @@ useEffect adalah API pengganti buat componentDidMount dan componentDidUpdate. pa
 untuk contoh pertama kita pake contoh yang ada di dokumentasinya aja karna gw mager bikin contoh lain wkwkwk
 
 ```
-const Example = () => {  const [count, setCount] = useState(0);  useEffect(() => {  document.title = `You clicked ${count} times`;  });}
+const Example = () => {  
+```
+
+```
+const [count, setCount] = useState(0);  
+```
+
+```
+useEffect(() => {  document.title = `You clicked ${count} times`;  });}
 ```
 
 nah contoh diatas adalah script buat update judul halaman, setiap count berubah..\
@@ -23,12 +31,12 @@ jadi, ketika setCount dijalankan, maka count akan terupdate, nah ketika count te
 nah selain digunakan untuk watch setiap ada perubahan, useEffect ini punya parameter kedua, untuk nentuin data apa yang di subscribe 
 
 ```
-const Example = (data) => {  const [count, setCount] = useState(0);  useEffect(() => {  document.title = `data berubah`;  },data); //dia cuma bakal liat perubahan di data}
+const Example = (data) => {    const [count, setCount] = useState(0);    useEffect(() => {      document.title = `data berubah`;    },data); //dia cuma bakal liat perubahan di data}}
 ```
 
 nah dengan contoh kode diatas, kita count bertambah useEffect ga bakal dijalankan, karena kita isi parameter ke 2 dengan variable data
 
-`parameter ke 2 sendiri bisa diisi dengan array kosong, gunanya buat bikin useEffect cuma dijalankan setiap moun dan unmount`
+parameter ke 2 sendiri bisa diisi dengan array kosong, gunanya buat bikin useEffect cuma dijalankan setiap moun dan unmount
 
 ```
 const Example = (data) => {  const [count, setCount] = useState(0);  useEffect(() => {  document.title = `judul baru`;  },[]); //fungsi cuma bakal dijalankan saat mount dan unmount}
