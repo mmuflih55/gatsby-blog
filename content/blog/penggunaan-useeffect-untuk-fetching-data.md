@@ -28,7 +28,7 @@ const Example = (data) => {  const [count, setCount] = useState(0);  useEffect((
 
 nah dengan contoh kode diatas, kita count bertambah useEffect ga bakal dijalankan, karena kita isi parameter ke 2 dengan variable data
 
-parameter ke 2 sendiri bisa diisi dengan array kosong, gunanya buat bikin useEffect cuma dijalankan setiap moun dan unmount
+`parameter ke 2 sendiri bisa diisi dengan array kosong, gunanya buat bikin useEffect cuma dijalankan setiap moun dan unmount`
 
 ```
 const Example = (data) => {  const [count, setCount] = useState(0);  useEffect(() => {  document.title = `judul baru`;  },[]); //fungsi cuma bakal dijalankan saat mount dan unmount}
@@ -56,8 +56,6 @@ const loadMore = () => {  setState({ ...state, offset: state.offset + 5, limit: 
 ```
 
 gw ga manggil fetchData, tapi cuma ubah state offset sama limit maka fetchData akan dipanggil karena pengaruh useEffect seperti yang gw jelaskan diatas..
-
-
 
 tarraaaa~ jadilah fungsi loadmore dengan useEffect..\
 kalo pengen coba langsung liat hasilnya bisa liat disini <https://wc8ef.csb.app/>
