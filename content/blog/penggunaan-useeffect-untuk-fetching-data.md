@@ -8,7 +8,7 @@ description: Contoh penggunaan useEffect untuk fetching data
 ---
 Halo, sebenernya ini tutorial ga penting penting amat karna sebenernya udah ada di dokumentasi react, tapi karna orang indo biasanya males males baca artikel luar dan gw bingung mau nulis apa, yaudah bikin ginian aja.. wkwkwk
 
-ok. pertama apa itu useEffetct?\
+ok. pertama apa itu useEffetct?
 useEffect adalah API pengganti buat componentDidMount dan componentDidUpdate. pada defaultnya useEffect akan dijalankan setiap pertama kali render, dan setiap ada update
 
 ```
@@ -24,7 +24,7 @@ useEffect(() => {
 }
 ```
 
-nah contoh diatas adalah script buat update judul halaman, setiap count berubah..\
+nah contoh diatas adalah script buat update judul halaman, setiap count berubah..
 jadi, ketika setCount dijalankan, maka count akan terupdate, nah ketika count ter update, useEffect akan dijalankan (apdet judul halaman). Simplenya, useEffect ini buat watch suatu state stiap ada perubahan lah..
 
 nah selain digunakan untuk watch setiap ada perubahan, useEffect ini punya parameter kedua, untuk nentuin data apa yang di subscribe 
@@ -105,8 +105,7 @@ useEffect(() => {
   }, [state.offset, state.limit]);
 ```
 
-fetchData adalah potongan code untuk ambil data dari api, nah karena useEffect dijalankan saat mount, dan parameter ke 2 berubah, maka dapetlah kita data dari API saat mount.\
-nah karena gw taro state.offset, dan limit di parameter ke 2, maka useEffect ini juga akan dijalankan ketika ada perubahan di kedua insan(?) tersebut..
+fetchData adalah potongan code untuk ambil data dari api, nah karena useEffect dijalankan saat mount, dan parameter ke 2 berubah, maka dapetlah kita data dari API saat mount. nah, karena gw taro state.offset, dan limit di parameter ke 2, maka useEffect ini juga akan dijalankan ketika ada perubahan di kedua insan(?) tersebut..
 
 nah di code
 
