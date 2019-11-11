@@ -13,10 +13,25 @@ const useStyles = makeStyles(theme => ({
         // flexDirection: 'column'
         alignItems: 'center',
     },
-    skillsCon: { 
-        width: 250, 
+    listItem: {
+        display: 'flex',
+        padding: 10,
+        margin: 10,
+        transition: '0.3s',
+        '&:hover': {
+            margin: 5,
+            boxShadow: '0 5px 10px grey'
+        }
+    },
+    skillsCon: {
+        width: 250,
         height: 20,
-        margin: 20
+        margin: '0 20px 20px 20px'
+    },
+    skillsBar: {
+        transition: '0.5s',
+        height: 20,
+        background: 'linear-gradient(90deg, rgba(83,100,195,1) 9%, rgba(117,178,239,1) 92%)'
     },
     profileBg: {
         background: 'linear-gradient(0deg, rgba(83,100,195,1) 8%, rgba(117,178,237,1) 90%)'

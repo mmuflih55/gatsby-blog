@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Grid, Paper, Card, CardContent, CardMedia, InputBase } from '@material-ui/core';
+import { Container, Grid, Paper, Card, CardContent, CardMedia } from '@material-ui/core';
 import useStyles from '../Style/Style';
 import '../Style/index.css'
 export const pageQuery = graphql`
@@ -95,14 +95,7 @@ const Blog = (props) => {
                     to={`/blog${node.fields.slug}`}
                   >
                     <Card
-                      style={
-                        {
-                          display: 'flex',
-                          padding: 10,
-                          margin: 5
-                        }
-                      }
-                      className={classes.btn}
+                      className={classes.btn,classes.listItem}
                     >
                       <CardMedia
                         style={{ width: 75, height: 75, minWidth: 75, maxWidth: 75 }}
