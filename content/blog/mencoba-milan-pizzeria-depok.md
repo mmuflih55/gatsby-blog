@@ -8,7 +8,7 @@ description: Pengalaman mencoba makan di milan pizzeria cafe
 ---
 Berawal dari pengen makan pizza, tapi bosen sama domino dan pizza hut, akhirnya gw cari cari warung(?) pizza di deket deket daerah gw.. dan akhirnya nemulah Milan Pizzeria Cafe. akhirnya gw langsung cus kesitu.
 
-Tempatnya lumayan enak, mungkin pas gw dtg karna lagi sepi kali yak.. dtg pas minggu, soalnya posisinya dkt UI sama Gundar kayaknya rame kalo hari biasa.. \
+Tempatnya lumayan enak, mungkin pas gw dtg karna lagi sepi kali yak.. dtg pas minggu, soalnya posisinya dkt UI sama Gundar kayaknya rame kalo hari biasa..\
 tempatnya lumayan luas, ada 3 lantai + 1 lantai buat musholla.. jadi ya meski rame kayanya masih dapet tempat dah.. #sotoy
 
 nah pizzanya sendiri ada lumayan banyak.. kisaran harganya 25k - lupa berapa.. kalo ga salah 200rban, gw sndiri coba beli paketan (foto yang ada di thumbnail) seharga 50k, dengan alesan dpt variasinya lumayan kan.. daripada beli pizza 1, kan niatnya dtg mau icip icip(?)
