@@ -6,7 +6,34 @@ const useStyles = makeStyles(theme => ({
     noBox: {
         boxShadow: 'none'
     },
-    profileBg:{
+    center: {
+        // display: 'flex',
+        // alignItems: 'center',
+        // justifyContent: 'center',
+        // flexDirection: 'column'
+        alignItems: 'center',
+    },
+    listItem: {
+        display: 'flex',
+        padding: 10,
+        margin: 10,
+        transition: '0.3s',
+        '&:hover': {
+            margin: 5,
+            boxShadow: '0 5px 10px grey'
+        }
+    },
+    skillsCon: {
+        width: 250,
+        height: 20,
+        margin: '0 20px 20px 20px'
+    },
+    skillsBar: {
+        transition: '0.5s',
+        height: 20,
+        background: 'linear-gradient(90deg, rgba(83,100,195,1) 9%, rgba(117,178,239,1) 92%)'
+    },
+    profileBg: {
         background: 'linear-gradient(0deg, rgba(83,100,195,1) 8%, rgba(117,178,237,1) 90%)'
     },
     loadingContainer: {
@@ -15,19 +42,19 @@ const useStyles = makeStyles(theme => ({
         alignItems: 'center',
         minHeight: '200px'
     },
-    contentlistcon:{
+    contentlistcon: {
         display: 'flex',
         flexDirection: 'column'
     },
     postlistcon: {
-        height: 'auto', 
+        height: 'auto',
         overflowY: 'none',
         [theme.breakpoints.up('sm')]: {
             height: '80vh',
             overflowY: 'scroll',
         },
     },
-    btn:{
+    btn: {
         '&:hover': {
             cursor: 'pointer',
         }
@@ -59,14 +86,14 @@ const useStyles = makeStyles(theme => ({
             backgroundColor: fade(theme.palette.common.black, 0.25),
         },
         marginLeft: 0,
-        paddingLeft:15,
+        paddingLeft: 15,
         width: '100% !important',
         [theme.breakpoints.up('sm')]: {
             width: 'auto',
         },
     },
     iconCircle: {
-        backgroundColor:'red'
+        backgroundColor: 'red'
     },
     searchIcon: {
         width: theme.spacing(7),

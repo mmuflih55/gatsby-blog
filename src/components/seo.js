@@ -53,7 +53,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
         },
         {
           name: `og:image`,
-          content: image!=undefined?"https://mmuflih.com"+image:"https://mmuflih.com/assets/icon.png",
+          content: image!==undefined?"https://mmuflih.com"+image:"https://mmuflih.com/assets/icon.png",
 
         },
         {
@@ -74,7 +74,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
         },
         {
           name: `twitter:image`,
-          content: image!=undefined?"https://mmuflih.com"+image:"https://mmuflih.com/assets/icon.png",
+          content: image!==undefined?"https://mmuflih.com"+image:"https://mmuflih.com/assets/icon.png",
         },
       ]
         .concat(

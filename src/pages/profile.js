@@ -1,8 +1,81 @@
-import React from 'react';
+import React, { useState,useEffect } from 'react';
 import Layout from "../components/layout"
 import useStyles from './../Style/Style'
 import '../Style/profile.css'
-import { FaGithub,FaTwitter,FaLinkedin,FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { Grid } from '@material-ui/core';
+import { useInView } from 'react-intersection-observer'
+
+const SkillPanel = () => {
+    const classes = useStyles();
+    const [feref, feinView] = useInView();
+    const [beref, beinView] = useInView();
+    const [state,setState] = useState({react:0,vue:0,flutter:0,cordova:0,php:0,java:0,python:0})
+    useEffect(() => {  
+        console.log(feinView);
+        console.log(beinView);
+        if(feinView===true){
+            setState(s=>({...s,react:200,vue:220,flutter:150,cordova:180}))
+        }
+        if(beinView===true){
+            setState(s=>({...s,php:200,python:100,java:100}))
+        }
+    },[feinView,beinView]);
+
+    return (
+        <div>
+            <Grid container spacing={2} style={{ padding: 20 }}>
+                <Grid item xs={12} md={12}>
+                    <h3 style={{margin:'0 20px 0 20px'}}>Skills</h3>
+                </Grid>
+                <hr/>
+                <Grid item xs={12} md={12}>
+                    <h5 style={{margin:'0 20px 0 20px'}}>Front End :</h5>
+                </Grid>
+                <Grid style={{marginTop:0}} item xs={12} md={6} className={classes.center}>
+                    <div className={classes.skillsCon}>
+                        <label>React</label>
+                        <div className={classes.skillsBar} style={{ width: state.react}}></div>
+                    </div>
+                    <div className={classes.skillsCon}>
+                        <label>Vue</label>
+                        <div className={classes.skillsBar} style={{ width: state.vue }}></div>
+                    </div>
+                </Grid>
+                <Grid item xs={12} md={6} className={classes.center}>
+                    <div className={classes.skillsCon}>
+                        <label>Cordova</label>
+                        <div className={classes.skillsBar} style={{ width: state.cordova}}></div>
+                    </div>
+                    <div className={classes.skillsCon}>
+                        <label>Flutter</label>
+                        <div className={classes.skillsBar} style={{ width: state.flutter}}></div>
+                    </div>
+                </Grid>
+                <Grid ref={feref} item xs={12} md={12}>
+                    <h5 style={{margin:'0 20px 0 20px'}}>Back End :</h5>
+                </Grid>
+                <Grid style={{marginTop:0}} item xs={12} md={6} className={classes.center}>
+                    <div className={classes.skillsCon}>
+                        <label>PHP</label>
+                        <div className={classes.skillsBar} style={{ width: state.php}}></div>
+                    </div>
+                    <div className={classes.skillsCon}>
+                        <label>Python Django</label>
+                        <div className={classes.skillsBar} style={{ width: state.python}}></div>
+                    </div>
+                </Grid>
+                <Grid item xs={12} md={6} className={classes.center}>
+                    <div className={classes.skillsCon}>
+                        <label>Java (Spring)</label>
+                        <div className={classes.skillsBar} style={{ width: state.java}}></div>
+                    </div>
+                </Grid>
+            </Grid>
+            <div ref={beref}></div>
+        </div>
+    )
+}
 
 const Profile = (props) => {
     const classes = useStyles();
@@ -14,13 +87,14 @@ const Profile = (props) => {
                     <h1>Hi, I'm Muhammad Muflih</h1>
                     <h2>Software Engineer with {new Date().getFullYear() - 2017},{new Date().getMonth() - 2} years experiences</h2>
                     <div style={{ display: 'flex', flexDirection: 'row' }}>
-                        <a href="https://github.com//mmuflih55" rel="noopener noreferrer" target="_blank"><FaGithub style={{ fontSize: 48, color: 'white', margin: 10 }}/></a>
-                        <a href="https://twitter.com/muh_muflih" rel="noopener noreferrer" target="_blank"><FaTwitter style={{ fontSize: 48, color: 'white', margin: 10 }}/></a>
-                        <a href="https://www.linkedin.com/in/muhammad-muflih-574b2b71" rel="noopener noreferrer" target="_blank"><FaLinkedin style={{ fontSize: 48, color: 'white', margin: 10 }}/></a>
-                        <a href="https://www.instagram.com/m_muflih5" rel="noopener noreferrer" target="_blank"><FaInstagram style={{ fontSize: 48, color: 'white', margin: 10 }}/></a>
+                        <a href="https://github.com//mmuflih55" rel="noopener noreferrer" target="_blank"><FaGithub style={{ fontSize: 48, color: 'white', margin: 10 }} /></a>
+                        <a href="https://twitter.com/muh_muflih" rel="noopener noreferrer" target="_blank"><FaTwitter style={{ fontSize: 48, color: 'white', margin: 10 }} /></a>
+                        <a href="https://www.linkedin.com/in/muhammad-muflih-574b2b71" rel="noopener noreferrer" target="_blank"><FaLinkedin style={{ fontSize: 48, color: 'white', margin: 10 }} /></a>
+                        <a href="https://www.instagram.com/m_muflih5" rel="noopener noreferrer" target="_blank"><FaInstagram style={{ fontSize: 48, color: 'white', margin: 10 }} /></a>
                     </div>
                 </div>
             </div>
+            <SkillPanel />
         </Layout>
     )
 }
