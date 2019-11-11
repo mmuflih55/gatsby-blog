@@ -15,10 +15,10 @@ const SkillPanel = () => {
         console.log(feinView);
         console.log(beinView);
         if(feinView===true){
-            setState({...state,react:200,vue:220,flutter:150,cordova:180})
+            setState(s=>({...s,react:200,vue:220,flutter:150,cordova:180}))
         }
         if(beinView===true){
-            setState({...state,php:200,python:100,java:100})
+            setState(s=>({...s,php:200,python:100,java:100}))
         }
     },[feinView,beinView]);
 
