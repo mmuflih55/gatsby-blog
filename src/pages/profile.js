@@ -12,8 +12,6 @@ const SkillPanel = () => {
     const [beref, beinView] = useInView();
     const [state,setState] = useState({react:0,vue:0,flutter:0,cordova:0,php:0,java:0,python:0})
     useEffect(() => {  
-        console.log(feinView);
-        console.log(beinView);
         if(feinView===true){
             setState(s=>({...s,react:200,vue:220,flutter:150,cordova:180}))
         }
