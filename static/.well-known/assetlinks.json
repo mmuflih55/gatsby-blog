@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.mmuflih",
+            "sha256_cert_fingerprints": [
+                "2B:92:51:D3:90:37:84:F4:57:DE:D3:EE:82:5C:F4:D0:8D:1F:B7:93:23:88:EB:98:AA:A0:76:A3:20:2E:D4:D9"
+            ]
+        }
+    }
+]
