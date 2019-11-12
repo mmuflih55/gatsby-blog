@@ -46,7 +46,7 @@ const BlogPostTemplate = (props) => {
                   //   style={{ height: 75, maxWidth: '75%' }}
                   //   image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail : "assets/icon.png"}
                   // />
-                  <img src={post.frontmatter.thumbnail} style={{maxWidth: '75%',maxHeight: 300}}/>
+                  <img alt="thumbnail" src={post.frontmatter.thumbnail} style={{maxWidth: '75%',maxHeight: 300}}/>
                   : null}
               </div>
               <MDXRenderer>{post.body}</MDXRenderer>

@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Grid, Paper, Card, CardContent, CardMedia, InputBase } from '@material-ui/core';
+import { Container, Grid, Paper, Card, CardContent, CardMedia } from '@material-ui/core';
 import useStyles from '../Style/Style';
 import '../Style/index.css'
 export const pageQuery = graphql`
