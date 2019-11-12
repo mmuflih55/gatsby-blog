@@ -95,14 +95,7 @@ const Blog = (props) => {
                     to={`/blog${node.fields.slug}`}
                   >
                     <Card
-                      style={
-                        {
-                          display: 'flex',
-                          padding: 10,
-                          margin: 5
-                        }
-                      }
-                      className={classes.btn}
+                      className={[classes.btn,classes.listItem]}
                     >
                       <CardMedia
                         style={{ width: 75, height: 75, minWidth: 75, maxWidth: 75 }}
