@@ -5,6 +5,7 @@ import '../Style/profile.css'
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import { Grid } from '@material-ui/core';
 import { useInView } from 'react-intersection-observer'
+import SEO from "../components/seo"
 
 const SkillPanel = () => {
     const classes = useStyles();
@@ -22,6 +23,7 @@ const SkillPanel = () => {
 
     return (
         <div>
+            <SEO title="My Profile and skills" />
             <Grid container spacing={2} style={{ padding: 20 }}>
                 <Grid item xs={12} md={12}>
                     <h3 style={{margin:'0 20px 0 20px'}}>Skills</h3>
