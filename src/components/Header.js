@@ -30,7 +30,7 @@ const MenuAppBar = () => {
         style={{ width: 250 }}
       >
         <List>
-          {[{ icon: <Home />, text: 'Home', url: '/' }, { icon: <Edit />, text: 'Profile', url: 'profile' }].map((item, i) => (
+          {[{ icon: <Home />, text: 'Home', url: '/' }, { icon: <Edit />, text: 'Profile', url: '/profile' }].map((item, i) => (
             <ListItem button key={i} component={Link} to={item.url}>
               <ListItemIcon>{item.icon}</ListItemIcon>
               <ListItemText primary={item.text} />
