@@ -47,7 +47,9 @@ const BlogPostTemplate = (props) => {
                   <img alt="thumbnail" src={post.frontmatter.thumbnail} style={{maxWidth: '75%',maxHeight: 300}}/>
                   : null}
               </div>
-              <MDXRenderer>{post.body}</MDXRenderer>
+              <div style={{whiteSpace: 'pre-line'}}>
+                <MDXRenderer>{post.body}</MDXRenderer>                
+              </div>
             </div>
             <ul
               style={{
