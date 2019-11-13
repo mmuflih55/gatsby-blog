@@ -1,14 +1,6 @@
-[
-    {
-        "relation": [
-            "delegate_permission/common.handle_all_urls"
-        ],
-        "target": {
-            "namespace": "android_app",
-            "package_name": "com.mmuflih",
-            "sha256_cert_fingerprints": [
-                "2B:92:51:D3:90:37:84:F4:57:DE:D3:EE:82:5C:F4:D0:8D:1F:B7:93:23:88:EB:98:AA:A0:76:A3:20:2E:D4:D9"
-            ]
-        }
-    }
-]
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "com.mmuflih",
+                 "sha256_cert_fingerprints": ["A5:62:AC:48:43:9D:25:5F:E2:DD:74:67:54:CF:FD:40:01:42:06:26:86:69:3E:1B:E8:43:5B:3A:35:6E:FC:62"] }
+  }]
+  

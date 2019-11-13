@@ -3,7 +3,7 @@ path: tutor/fetchwithhooks
 date: 2019-11-10T01:13:56.024Z
 title: Penggunaan useEffect untuk fetching data
 tags: '[''tutorial'']'
-thumbnail: /assets/icon.png
+thumbnail: /assets/react.png
 description: Contoh penggunaan useEffect untuk fetching data
 ---
 Halo, sebenernya ini tutorial ga penting penting amat karna sebenernya udah ada di dokumentasi react, tapi karna orang indo biasanya males males baca artikel luar dan gw bingung mau nulis apa, yaudah bikin ginian aja.. wkwkwk
