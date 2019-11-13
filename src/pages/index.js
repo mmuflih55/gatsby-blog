@@ -95,7 +95,7 @@ const Blog = (props) => {
                     to={`/blog${node.fields.slug}`}
                   >
                     <Card
-                      className={[classes.btn,classes.listItem]}
+                      className={[classes.btn,classes.listItem].join(' ')}
                     >
                       <CardMedia
                         style={{ width: 75, height: 75, minWidth: 75, maxWidth: 75 }}

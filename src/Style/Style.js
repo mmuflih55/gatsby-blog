@@ -14,12 +14,15 @@ const useStyles = makeStyles(theme => ({
         alignItems: 'center',
     },
     listItem: {
+        [theme.breakpoints.up('md')]: {
+            margin: 10,
+        },
         display: 'flex',
+        margin: 5,
         padding: 10,
-        margin: 10,
         transition: '0.3s',
         '&:hover': {
-            margin: 5,
+            margin: 2,
             boxShadow: '0 5px 10px grey'
         }
     },

@@ -13,7 +13,7 @@ useEffect adalah API pengganti buat componentDidMount dan componentDidUpdate. pa
 
 untuk contoh pertama kita pake contoh yang ada di dokumentasinya aja karna gw mager bikin contoh lain wkwkwk
 
-```
+```javascript
 const Example = () => {
 const [count, setCount] = useState(0);  
 useEffect(() => {    
@@ -27,7 +27,7 @@ jadi, ketika setCount dijalankan, maka count akan terupdate, nah ketika count te
 
 nah selain digunakan untuk watch setiap ada perubahan, useEffect ini punya parameter kedua, untuk nentuin data apa yang di subscribe 
 
-```
+```javascript
 const Example = (data) => {    
 const [count, setCount] = useState(0);    
 useEffect(() => {      
@@ -40,7 +40,7 @@ nah dengan contoh kode diatas, kita count bertambah useEffect ga bakal dijalanka
 
 parameter ke 2 sendiri bisa diisi dengan array kosong, gunanya buat bikin useEffect cuma dijalankan setiap moun dan unmount
 
-```
+```javascript
 const Example = (data) => {  
 const [count, setCount] = useState(0);  
 useEffect(() => {  
@@ -51,7 +51,7 @@ useEffect(() => {
 
 ok sekarang kita bikin contoh kapan saya menggunakan useEffect
 
-```
+```javascript
 import React, { useState, useEffect } from "react";
 
 const FComponent = () => {
@@ -87,7 +87,7 @@ export default FComponent;
 
 ok sekarang kita bahas satu persatu potongan code diatas..
 
-```
+```javascript
 useEffect(() => {
     async function fetchData() {
       console.log("fetch");
@@ -107,7 +107,7 @@ fetchData adalah potongan code untuk ambil data dari api, nah karena useEffect d
 
 nah di code
 
-```
+```javascript
 const loadMore = () => {
     setState({ ...state, offset: state.offset + 5, limit: state.limit + 5 });
   };

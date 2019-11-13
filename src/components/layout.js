@@ -56,6 +56,7 @@ const Layout = ({ children }) => {
   return (
     <Wrapper>
       <Header/>
+        <div className="BG"/>
         <main>{children}</main>
       <Footer/>
     </Wrapper>

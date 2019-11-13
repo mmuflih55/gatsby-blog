@@ -8,8 +8,6 @@ import { rhythm, scale } from "../utils/typography"
 import { Container, Grid, Paper } from '@material-ui/core';
 import useStyles from '../Style/Style';
 
-// class BlogPostTemplate extends React.Component {
-// render() {
 const BlogPostTemplate = (props) => {
   const classes = useStyles();
   const post = props.data.mdx
@@ -62,14 +60,14 @@ const BlogPostTemplate = (props) => {
             >
               <li>
                 {previous && (
-                  <Link to={`blog${previous.fields.slug}`} rel="prev">
+                  <Link to={`/blog${previous.fields.slug}`} rel="prev">
                     ← {previous.frontmatter.title}
                   </Link>
                 )}
               </li>
               <li>
                 {next && (
-                  <Link to={`blog${next.fields.slug}`} rel="next">
+                  <Link to={`/blog${next.fields.slug}`} rel="next">
                     {next.frontmatter.title} →
               </Link>
                 )}
