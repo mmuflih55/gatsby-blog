@@ -6,12 +6,12 @@ tags: '[''tutorial'']'
 thumbnail: /assets/react.png
 description: Contoh penggunaan useEffect untuk fetching data
 ---
-Halo, sebenernya ini tutorial ga penting penting amat karna sebenernya udah ada di dokumentasi react, tapi karna orang indo biasanya males males baca artikel luar dan gw bingung mau nulis apa, yaudah bikin ginian aja.. wkwkwk
+Halo, sebenernya ini tutorial ga penting penting amat karna sebenernya udah ada di dokumentasi react, tapi karna orang indo biasanya males males baca artikel luar dan gw bingung mau nulis apa, yaudah bikin ginian aja.. lol
 
 ok. pertama apa itu useEffetct?
 useEffect adalah API pengganti buat componentDidMount dan componentDidUpdate. pada defaultnya useEffect akan dijalankan setiap pertama kali render, dan setiap ada update
 
-untuk contoh pertama kita pake contoh yang ada di dokumentasinya aja karna gw mager bikin contoh lain wkwkwk
+untuk contoh pertama kita pake contoh yang ada di dokumentasinya aja karna gw mager bikin contoh lain lol
 
 ```javascript
 const Example = () => {
@@ -22,10 +22,10 @@ useEffect(() => {
 }
 ```
 
-nah contoh diatas adalah script buat update judul halaman, setiap count berubah..
-jadi, ketika setCount dijalankan, maka count akan terupdate, nah ketika count ter update, useEffect akan dijalankan (apdet judul halaman). Simplenya, useEffect ini buat watch suatu state stiap ada perubahan lah..
+nah contoh diatas adalah script buat agar setiap count berubah, judul halaman juga berubah..
+jadi, ketika setCount dijalankan, maka count akan terupdate, nah ketika count ter update, useEffect akan dijalankan sehingga judul halaman berubah. Simplenya, useEffect ini buat subscribe suatu state stiap ada perubahan lah..
 
-nah selain digunakan untuk watch setiap ada perubahan, useEffect ini punya parameter kedua, untuk nentuin data apa yang di subscribe 
+nah selain digunakan untuk subscribe setiap ada perubahan, useEffect ini punya parameter kedua, untuk nentuin data apa yang di subscribe 
 
 ```javascript
 const Example = (data) => {    
@@ -38,7 +38,7 @@ useEffect(() => {
 
 nah dengan contoh kode diatas, kita count bertambah useEffect ga bakal dijalankan, karena kita isi parameter ke 2 dengan variable data
 
-parameter ke 2 sendiri bisa diisi dengan array kosong, gunanya buat bikin useEffect cuma dijalankan setiap moun dan unmount
+parameter ke 2 sendiri bisa diisi dengan array kosong, gunanya buat bikin useEffect cuma dijalankan setiap mount dan unmount
 
 ```javascript
 const Example = (data) => {  
