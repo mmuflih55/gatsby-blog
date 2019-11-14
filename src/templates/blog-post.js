@@ -45,8 +45,8 @@ const BlogPostTemplate = (props) => {
                   //   style={{ height: 75, maxWidth: '75%' }}
                   //   image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail : "assets/icon.png"}
                   // />
-                  <Img fixed={post.frontmatter.thumbnail}/>
-                  // <img alt="thumbnail" src={post.frontmatter.thumbnail} style={{maxWidth: '75%',maxHeight: 300}}/>
+                  // <Img fixed={post.frontmatter.thumbnail}/>
+                  <img alt="thumbnail" src={post.frontmatter.thumbnail} style={{maxWidth: '75%',maxHeight: 300}}/>
                   : null}
               </div>
               <div style={{whiteSpace: 'pre-line'}}>
