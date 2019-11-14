@@ -18,6 +18,12 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        sitemapSize: 1000
+      }
+    },
+    {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
         publicPath: `loginadmin`,
