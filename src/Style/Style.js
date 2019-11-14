@@ -47,7 +47,7 @@ const useStyles = makeStyles(theme => ({
     },
     contentlistcon: {
         display: 'flex',
-        flexDirection: 'column'
+        flexDirection: 'column',
     },
     postlistcon: {
         height: 'auto',

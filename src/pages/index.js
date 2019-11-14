@@ -102,7 +102,7 @@ const Blog = (props) => {
                         image={node.frontmatter.thumbnail ? node.frontmatter.thumbnail : "assets/icon.png"}
                       />
                       {/* <img src="/assets/diff-of-innovation.jpg"/> */}
-                      <CardContent>
+                      <CardContent style={{padding: '0 0 0 10px'}}>
                         <div className={classes.contentlistcon}>
                           {node.frontmatter.title || node.fields.slug}
                           <small>{node.frontmatter.date}</small>
