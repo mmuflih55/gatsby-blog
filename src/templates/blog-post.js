@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 import { Container, Grid, Paper } from '@material-ui/core';
 import useStyles from '../Style/Style';
-import Img from "gatsby-image"
+// import Img from "gatsby-image"
 
 const BlogPostTemplate = (props) => {
   const classes = useStyles();
