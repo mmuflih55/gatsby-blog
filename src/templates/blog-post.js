@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 import { Container, Grid, Paper } from '@material-ui/core';
 import useStyles from '../Style/Style';
+import Img from "gatsby-image"
 
 const BlogPostTemplate = (props) => {
   const classes = useStyles();
@@ -44,7 +45,8 @@ const BlogPostTemplate = (props) => {
                   //   style={{ height: 75, maxWidth: '75%' }}
                   //   image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail : "assets/icon.png"}
                   // />
-                  <img alt="thumbnail" src={post.frontmatter.thumbnail} style={{maxWidth: '75%',maxHeight: 300}}/>
+                  <Img fixed={post.frontmatter.thumbnail}/>
+                  // <img alt="thumbnail" src={post.frontmatter.thumbnail} style={{maxWidth: '75%',maxHeight: 300}}/>
                   : null}
               </div>
               <div style={{whiteSpace: 'pre-line'}}>
