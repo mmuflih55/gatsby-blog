@@ -39,8 +39,8 @@ const BlogPostTemplate = (props) => {
                   {post.frontmatter.date},
             </p>
               </label>
-              <div style={{textAlign: 'center'}}>
-                  <Img fixed={post.frontmatter.thumbnail.childImageSharp.fixed}/>
+              <div style={{display: 'flex', marginBottom: 25, alignContent: 'center',alignItems:'center',width:'100%', justifyContent: 'center'}}>
+                  <Img objectFit={'contain'} draggable={true} imgStyle={{width:'100%',objectFit:'contain'}} style={{maxWidth: '75%',maxHeight: 300, flex: 1}} fluid={post.frontmatter.thumbnail.childImageSharp.fluid}/>
               </div>
               <div style={{whiteSpace: 'pre-line'}}>
                 <MDXRenderer>{post.body}</MDXRenderer>                
@@ -96,8 +96,8 @@ export const pageQuery = graphql`
       frontmatter {
         thumbnail {
           childImageSharp {
-            fixed(height: 400){
-              ...GatsbyImageSharpFixed
+            fluid{
+              ...GatsbyImageSharpFluid
             }
           }
         }
