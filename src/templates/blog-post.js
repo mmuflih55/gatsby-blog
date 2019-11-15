@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 import { Container, Grid, Paper } from '@material-ui/core';
 import useStyles from '../Style/Style';
-// import Img from "gatsby-image"
+import Img from "gatsby-image"
 
 const BlogPostTemplate = (props) => {
   const classes = useStyles();
@@ -39,15 +39,8 @@ const BlogPostTemplate = (props) => {
                   {post.frontmatter.date},
             </p>
               </label>
-              <div style={{display: 'flex', alignContent: 'center',alignItems:'center',width:'100%', justifyContent: 'center'}}>
-                {post.frontmatter.thumbnail ?
-                  // <CardMedia
-                  //   style={{ height: 75, maxWidth: '75%' }}
-                  //   image={post.frontmatter.thumbnail ? post.frontmatter.thumbnail : "assets/icon.png"}
-                  // />
-                  // <Img fixed={post.frontmatter.thumbnail}/>
-                  <img alt="thumbnail" src={post.frontmatter.thumbnail} style={{maxWidth: '75%',maxHeight: 300}}/>
-                  : null}
+              <div style={{textAlign: 'center'}}>
+                  <Img fixed={post.frontmatter.thumbnail.childImageSharp.fixed}/>
               </div>
               <div style={{whiteSpace: 'pre-line'}}>
                 <MDXRenderer>{post.body}</MDXRenderer>                
@@ -101,7 +94,13 @@ export const pageQuery = graphql`
       body
       timeToRead
       frontmatter {
-        thumbnail
+        thumbnail {
+          childImageSharp {
+            fixed(height: 400){
+              ...GatsbyImageSharpFixed
+            }
+          }
+        }
         title
         date(formatString: "MMMM DD, YYYY")
         description

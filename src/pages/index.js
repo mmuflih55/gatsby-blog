@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Grid, Paper, Card, CardContent, CardMedia } from '@material-ui/core';
+import Img from "gatsby-image"
 import useStyles from '../Style/Style';
 import '../Style/index.css'
 export const pageQuery = graphql`
@@ -36,8 +37,14 @@ export const pageQuery = graphql`
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
-            thumbnail
             description
+            thumbnail{
+              childImageSharp {
+                fixed(height: 75, width: 75){
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
           }
         }
       }
@@ -98,9 +105,8 @@ const Blog = (props) => {
                       className={[classes.btn,classes.listItem].join(' ')}
                     >
                       <CardMedia
-                        style={{ width: 75, height: 75, minWidth: 75, maxWidth: 75 }}
-                        image={node.frontmatter.thumbnail ? node.frontmatter.thumbnail : "assets/icon.png"}
-                      />
+                        component={Img}
+                        fixed={node.frontmatter.thumbnail.childImageSharp.fixed}/>
                       {/* <img src="/assets/diff-of-innovation.jpg"/> */}
                       <CardContent style={{padding: '0 0 0 10px'}}>
                         <div className={classes.contentlistcon}>
