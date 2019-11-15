@@ -106,6 +106,7 @@ const Blog = (props) => {
                     >
                       <CardMedia
                         component={Img}
+                        style={{ width: 75, height: 75, minWidth: 75, maxWidth: 75 }}
                         fixed={node.frontmatter.thumbnail.childImageSharp.fixed}/>
                       {/* <img src="/assets/diff-of-innovation.jpg"/> */}
                       <CardContent style={{padding: '0 0 0 10px'}}>
