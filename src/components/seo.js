@@ -40,6 +40,10 @@ function SEO({ description, lang, meta, keywords, title, image }) {
           content: metaDescription,
         },
         {
+          name: `author`,
+          content: site.siteMetadata.author,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -52,7 +56,8 @@ function SEO({ description, lang, meta, keywords, title, image }) {
           content: `website`,
         },
         {
-          name: `og:image`,
+          name: `image`,
+          property: `og:image`,
           content: image!==undefined?"https://mmuflih.com"+image:"https://mmuflih.com/assets/icon.png",
 
         },

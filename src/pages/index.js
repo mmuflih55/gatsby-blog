@@ -13,7 +13,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    popular: allMdx(limit: 4, filter: {}, sort: {fields: timeToRead, order: DESC}) {
+    popular: allMdx(limit: 3, filter: {}, sort: {fields: timeToRead, order: DESC}) {
       edges {
         node {
           id
@@ -70,16 +70,22 @@ const Blog = (props) => {
         />
         <Grid container spacing={2}>
           <Grid item xs={12} md={4} >
-            <Paper className={classes.container} style={{ paddingBottom: 15 }}>
-              {/* <h2>Search</h2>
+            {/* <Paper className={classes.container} style={{ paddingBottom: 15,marginBottom: 5 }}>
+              <h2>Search</h2>
               <InputBase
                 // onKeyDown={search}
                 placeholder="Enter Search "
                 className={classes.search}
                 inputProps={{ 'aria-label': 'search' }}
               />
-            </Paper>
-            <Paper className={classes.container} style={{ paddingBottom: 15, marginTop:15 }}> */}
+            </Paper> */}
+            {/* <Paper className={classes.container} style={{ paddingBottom: 15, marginBottom:15 }}> 
+              <h2>Welcome</h2>
+              <p>Hallo, blog ini gada tombol subscribe nya..</p>
+              <p>kalau mau ikutin, follow aja twitter yang followernya sepi bagai hati ini &lt;/3 </p>
+              <a href="https://twitter.com/muh_muflih">Link Twitter</a>
+            </Paper> */}
+            <Paper className={classes.container} style={{ paddingBottom: 15 }}>
               <h2>Popular Post</h2>
               {popular.map(({node})=>(
                 <Link
@@ -109,6 +115,7 @@ const Blog = (props) => {
                     >
                       <CardMedia
                         component={Img}
+                        src={node.frontmatter.thumbnail.childImageSharp.fixed.src}
                         style={{ width: 75, height: 75, minWidth: 75, maxWidth: 75 }}
                         fixed={node.frontmatter.thumbnail.childImageSharp.fixed}/>
                       {/* <img src="/assets/diff-of-innovation.jpg"/> */}
