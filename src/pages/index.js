@@ -64,7 +64,10 @@ const Blog = (props) => {
   return (
     <Layout location={props.location} title={siteTitle}>
       <Container style={{ paddingTop: 15 }}>
-        <SEO title="All posts" />
+        <SEO 
+        title="Muflih's Personal Blog"
+        image="/assets/icon.png"
+        />
         <Grid container spacing={2}>
           <Grid item xs={12} md={4} >
             <Paper className={classes.container} style={{ paddingBottom: 15 }}>
