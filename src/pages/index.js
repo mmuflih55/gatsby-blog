@@ -1,8 +1,8 @@
-import React, { useEffect } from "react"
+import React, { useState } from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Grid, Paper, Card, CardContent, CardMedia } from '@material-ui/core';
+import { Container, Grid, Paper, Card, CardContent, CardMedia, InputBase } from '@material-ui/core';
 import Img from "gatsby-image"
 import useStyles from '../Style/Style';
 import '../Style/index.css'
@@ -55,30 +55,36 @@ export const pageQuery = graphql`
 const Blog = (props) => {
   const classes = useStyles();
   const { data } = props
+  const [search, setSearch] = useState('');
   const siteTitle = data.site.siteMetadata.title
-  const posts = data.postlist.edges
+  const posts = data.postlist.edges.filter(({ node }) => (node.frontmatter.title.toLowerCase().includes(search.toLowerCase())));
   const popular = data.popular.edges
-  useEffect(() => {
-    // console.log('test')
-  }, [])
+  const onSearchChange = (event) => {
+    if (event.key === 'Enter') {
+      setSearch(event.target.value);
+    }
+  }
+
   return (
     <Layout location={props.location} title={siteTitle}>
       <Container style={{ paddingTop: 15 }}>
-        <SEO 
-        title="Muflih's Personal Blog"
-        image="/assets/icon.png"
+        <SEO
+          title="Muflih's Personal Blog"
+          image="/assets/icon.png"
         />
         <Grid container spacing={2}>
           <Grid item xs={12} md={4} >
-            {/* <Paper className={classes.container} style={{ paddingBottom: 15,marginBottom: 5 }}>
+            <Paper className={classes.container} style={{ paddingBottom: 15, marginBottom: 5 }}>
               <h2>Search</h2>
               <InputBase
-                // onKeyDown={search}
                 placeholder="Enter Search "
                 className={classes.search}
                 inputProps={{ 'aria-label': 'search' }}
+                onKeyPress={onSearchChange}
+                placeholder="Input search and press enter..."
               />
-            </Paper> */}
+
+            </Paper>
             {/* <Paper className={classes.container} style={{ paddingBottom: 15, marginBottom:15 }}> 
               <h2>Welcome</h2>
               <p>Hallo, blog ini gada tombol subscribe nya..</p>
@@ -87,7 +93,7 @@ const Blog = (props) => {
             </Paper> */}
             <Paper className={classes.container} style={{ paddingBottom: 15 }}>
               <h2>Popular Post</h2>
-              {popular.map(({node})=>(
+              {popular.map(({ node }) => (
                 <Link
                   key={node.fields.slug}
                   to={`/blog${node.fields.slug}`}
@@ -111,15 +117,15 @@ const Blog = (props) => {
                     to={`/blog${node.fields.slug}`}
                   >
                     <Card
-                      className={[classes.btn,classes.listItem].join(' ')}
+                      className={[classes.btn, classes.listItem].join(' ')}
                     >
                       <CardMedia
                         component={Img}
                         src={node.frontmatter.thumbnail.childImageSharp.fixed.src}
                         style={{ width: 75, height: 75, minWidth: 75, maxWidth: 75 }}
-                        fixed={node.frontmatter.thumbnail.childImageSharp.fixed}/>
+                        fixed={node.frontmatter.thumbnail.childImageSharp.fixed} />
                       {/* <img src="/assets/diff-of-innovation.jpg"/> */}
-                      <CardContent style={{padding: '0 0 0 10px'}}>
+                      <CardContent style={{ padding: '0 0 0 10px' }}>
                         <div className={classes.contentlistcon}>
                           {node.frontmatter.title || node.fields.slug}
                           <small>{node.frontmatter.date}</small>

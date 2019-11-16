@@ -123,7 +123,7 @@ module.exports = {
               // classPrefix: "language-",
               inlineCodeMarker: null,
               aliases: {},
-              showLineNumbers: false,
+              showLineNumbers: true,
               // noInlineHighlight: false,
               languageExtensions: [
                 {
@@ -192,6 +192,7 @@ module.exports = {
             `,
             output: "/rss.xml",
             title: `Gatsby RSS feed`,
+            match: "^/blog/",
           },
         ],
       },
