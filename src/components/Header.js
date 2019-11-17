@@ -4,7 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { Slide, AppBar, Toolbar, useScrollTrigger, IconButton, ButtonBase, List, ListItem, SwipeableDrawer, ListItemIcon, ListItemText } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
-import { Home, Edit } from '@material-ui/icons';
+import { Home, Person } from '@material-ui/icons';
 import useStyles from '../Style/Style';
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
@@ -30,7 +30,7 @@ const MenuAppBar = () => {
         style={{ width: 250 }}
       >
         <List>
-          {[{ icon: <Home />, text: 'Home', url: '/' }, { icon: <Edit />, text: 'Profile', url: '/profile' }].map((item, i) => (
+          {[{ icon: <Home />, text: 'Home', url: '/' }, { icon: <Person />, text: 'Profile', url: '/profile' }].map((item, i) => (
             <ListItem button key={i} component={Link} to={item.url}>
               <ListItemIcon>{item.icon}</ListItemIcon>
               <ListItemText primary={item.text} />
