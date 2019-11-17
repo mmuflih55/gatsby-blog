@@ -42,7 +42,7 @@ const BlogPostTemplate = (props) => {
               <div style={{display: 'flex', marginBottom: 25, alignContent: 'center',alignItems:'center',width:'100%', justifyContent: 'center'}}>
                   <Img objectFit={'contain'} draggable={true} imgStyle={{width:'100%',objectFit:'contain'}} style={{maxWidth: '75%',maxHeight: 300, flex: 1}} fluid={post.frontmatter.thumbnail.childImageSharp.fluid}/>
               </div>
-              <div style={{whiteSpace: 'pre-line'}}>
+              <div class="detailPost">
                 <MDXRenderer>{post.body}</MDXRenderer>                
               </div>
             </div>

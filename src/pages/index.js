@@ -77,7 +77,6 @@ const Blog = (props) => {
             <Paper className={classes.container} style={{ paddingBottom: 15, marginBottom: 5 }}>
               <h2>Search</h2>
               <InputBase
-                placeholder="Enter Search "
                 className={classes.search}
                 inputProps={{ 'aria-label': 'search' }}
                 onKeyPress={onSearchChange}

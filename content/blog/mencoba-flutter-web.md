@@ -13,25 +13,25 @@ description: Pengalaman mencoba flutter web
 
 
 
-Jadi ceritanya gw udah lama ga apdet flutter, udah denger flutter web dari lama tapi blom smpet coba.. kenapa? karena gw kira ribet kan bikin nya.. eh pas baca baca artikel tentang flutter web ini akhirnya gw tertarik coba lagi.. nah pas gw baca disini\
-<https://flutter.dev/docs/get-started/web>\
-ternyata bikin nya simple juga.. cuma perlu masuk channel dev, update flutter nya, trus kasih config biar support web, kelar..\
+Jadi ceritanya gw udah lama ga apdet flutter, udah denger flutter web dari lama tapi blom smpet coba.. kenapa? karena gw kira ribet kan bikin nya.. eh pas baca baca artikel tentang flutter web ini akhirnya gw tertarik coba lagi.. nah pas gw baca disini
+<https://flutter.dev/docs/get-started/web>
+ternyata bikin nya simple juga.. cuma perlu masuk channel dev, update flutter nya, trus kasih config biar support web, kelar..
 nah kalo lu udah pernah bikin project flutter sebelumnya, di project nya.. tinggal jalanin
 
 ```
  flutter create --org [package-name] .
 ```
 
-> nah di case gw, gw ada project lama pas iseng iseng belajar flutter, kira2 tampilanya gin kira
+nah di case gw, gw ada project lama pas iseng iseng belajar flutter, tampilanya gini
 
 ![](/assets/screen-shot-2019-11-17-at-22.55.31.png)
 
-nah setelah gw build jadi flutter web, taraaaa\~\~~
+nah setelah gw build jadi flutter web, taraaaa~~~
 
 ![](/assets/screen-shot-2019-11-17-at-23.45.51.png)
 
-**Tidak semudah itu ferguso\~\~**\
-gatau kenapa fetchingnya ga jalan, mau solve errornya tapi terlalu mager..\
+**Tidak semudah itu ferguso~~**
+gatau kenapa fetchingnya ga jalan, mau solve errornya tapi terlalu mager..
 yaudah lah.. karena gw pikir gw cuma mau coba gimana performa flutter web akhirnya bikin project baru trus build web
 
 ![](/assets/screen-shot-2019-11-18-at-00.17.40.png)
@@ -40,7 +40,7 @@ nah hasilnya bakal kayak gitu.. jadi kayak bener bener tampilan mobilenya, yang 
 
 ![](/assets/screen-shot-2019-11-17-at-23.54.17.png)
 
-Score nya menengah lah.. dan belum support PWA.. jadi menurut gw ya flutter ini belum jadi solusi untuk web..
+Score nya menengah lah.. dan belum support PWA.. (tapi udah banyak plugin tersedia buat pasang Service Worker) jadi menurut gw ya flutter ini belum jadi solusi untuk web..
 
 penasaran kenapa gitu amat 
 
