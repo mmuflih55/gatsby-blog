@@ -7,11 +7,11 @@ tags:
   - info
 thumbnail: /assets/logo2.png
 type: blog
-description: TWA adalah makanan yang berbahan dasar PWA yang ditemukan oleh chef Goog...
+description: Pengalaman mencoba Trusted Web Activity...
 ---
 **Jadi, apa sih TWA itu?**
 
-di era tren nya PWA saat ini, google mengluarkan technologi baru disebut TWA, yaitu teknologi untuk menghubungkan applikasi dengan web PWA dengan cara meggunakan custom tabs, sehingga kita bisa upload PWA kita ke playstore, dan karna isi apk ini sbnernya hanya custom tabs dan asset2 (icon, splash dll) size app kita di playstore bisa sangat kecil (ratusan kb)
+di era tren nya PWA saat ini, google mengluarkan technologi baru disebut TWA (Trusted web Activity), yaitu teknologi untuk menghubungkan applikasi dengan web PWA dengan cara meggunakan custom tabs, sehingga kita bisa upload PWA kita ke playstore, dan karna isi apk ini sbnernya hanya custom tabs dan asset2 (icon, splash dll) size app kita di playstore bisa sangat kecil (ratusan kb)
 
 **gimana cara membuat TWA?**
 
