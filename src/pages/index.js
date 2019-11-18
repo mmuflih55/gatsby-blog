@@ -95,7 +95,7 @@ const Blog = (props) => {
               {popular.map(({ node }) => (
                 <Link
                   key={node.fields.slug}
-                  to={`/blog${node.fields.slug}`}
+                  to={node.fields.slug}
                 >
                   <p>{node.frontmatter.title}</p>
                 </Link>
@@ -113,7 +113,7 @@ const Blog = (props) => {
                 ) : posts.map(({ node }) => (
                   <Link
                     key={node.fields.slug}
-                    to={`/blog${node.fields.slug}`}
+                    to={node.fields.slug}
                   >
                     <Card
                       className={[classes.btn, classes.listItem].join(' ')}

@@ -62,6 +62,8 @@ module.exports = {
       options: {
         extensions: [".mdx", ".md"],
         gatsbyRemarkPlugins: [
+          `gatsby-remark-relative-images`,
+          `gatsby-remark-images`,
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
@@ -110,15 +112,14 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-images`,
           `gatsby-remark-relative-images`,
+          `gatsby-remark-images`,
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
-              // classPrefix: "language-",
               inlineCodeMarker: null,
               aliases: {},
-              showLineNumbers: true,
+              // showLineNumbers: true,
               // noInlineHighlight: false,
               languageExtensions: [
                 {
