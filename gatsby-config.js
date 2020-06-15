@@ -18,7 +18,8 @@ module.exports = {
         path: `${__dirname}/static/assets`,
         name: `images`,
       },
-    },{
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content`,
@@ -40,8 +41,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        sitemapSize: 1000
-      }
+        sitemapSize: 1000,
+      },
     },
     {
       resolve: `gatsby-plugin-netlify-cms`,
@@ -134,7 +135,7 @@ module.exports = {
                     },
                   },
                 },
-              ]
+              ],
             },
           },
         ],

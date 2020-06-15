@@ -14,8 +14,14 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
-      - { name: tags, label: Tags, widget: list,  default: ['tech','info'] }
+      - { name: tags, label: Tags, widget: list, default: ["tech", "info"] }
       - { name: thumbnail, label: Thumbnail, widget: file }
-      - { name: type, default: 'blog',label: Type, widget: select, options: ['blog', 'featured'] }
+      - {
+          name: type,
+          default: "tech",
+          label: Type,
+          widget: select,
+          options: ["blog", "tech"],
+        }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }

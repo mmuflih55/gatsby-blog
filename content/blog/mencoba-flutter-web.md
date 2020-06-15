@@ -6,12 +6,9 @@ tags:
   - tech
   - info
 thumbnail: /assets/google-flutter-logo.png
-type: blog
+type: tech
 description: Pengalaman mencoba flutter web
 ---
-
-
-
 
 Jadi ceritanya gw udah lama ga apdet flutter, udah denger flutter web dari lama tapi blom smpet coba.. kenapa? karena gw kira ribet kan bikin nya.. eh pas baca baca artikel tentang flutter web ini akhirnya gw tertarik coba lagi.. nah pas gw baca disini
 <https://flutter.dev/docs/get-started/web>
@@ -42,11 +39,11 @@ nah hasilnya bakal kayak gitu.. jadi kayak bener bener tampilan mobilenya, yang 
 
 Score nya menengah lah.. dan belum support PWA.. (tapi udah banyak plugin tersedia buat pasang Service Worker) jadi menurut gw ya flutter ini belum jadi solusi untuk web..
 
-penasaran kenapa gitu amat 
+penasaran kenapa gitu amat
 
 ![](/assets/screen-shot-2019-11-18-at-00.23.45.png)
 
-Ternyata flutter web ini emang blom siap untuk produksi.. jadi ya masih banyak bug bug lah.. 
+Ternyata flutter web ini emang blom siap untuk produksi.. jadi ya masih banyak bug bug lah..
 
 kalo udah lancar paling PR(pekerjaan rumah, bukan pull request) kita ya bikin tampilan yang bisa masuk buat desktop (dibalik dulu kan web desktop yang responsive sama tampilan web, lol)
 
