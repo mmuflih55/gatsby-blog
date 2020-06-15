@@ -1,7 +1,9 @@
 backend:
   name: github
-  repo: mmuflih55/blog
+  repo: mmuflih55/gatsby-blog
 
+publish_mode: editorial_workflow
+locale: "id"
 media_folder: static/assets
 public_folder: assets
 
