@@ -20,7 +20,12 @@ Intinya menurut gw, sekali lagi menurut gw.. sebenernya di dunia Software Engine
 
 Pokoknya kalo menurut gw dua duanya ga salah, dan harusnya yang bisa menentukan lu perlu kuliah apa ga ya diri lu sendiri. Gw pun hanya ngasih pilihan ke ade gw.. ttp dia yang ambil keputusan akhir mau kuliah apa ga..
 
-Pernah juga ada perdebatan(?) antara gw yang memutuskan ga mau ambil S2 dan temen gw yang ngebet bgt ambil S2, gw gabisa menyalahkan dia tapi dia juga gabisa menyalahkan gw.. mnurut gw, tiap orang punya asasanya masing masing, kalo gw sih.. ya gw blm terpikirkan aja apa urgensi harus ambil S2. Menurut gw, dunia karir gw ga bergantung pada kertas ijazah.. beda cerita kalo gw kerja di.. uhuk(?) ah sudahlah.. yang kalo mau naik jabatan harus punya dokumen dokumen tertentu..
+Pernah juga ada perdebatan(?) antara gw yang memutuskan ga mau ambil S2 dan temen gw yang ngebet bgt ambil S2, gw gabisa menyalahkan dia tapi dia juga gabisa menyalahkan gw.. mnurut gw, tiap orang punya asasanya masing masing, kalo gw sih.. ya gw blm terpikirkan aja apa urgensi harus ambil S2. Menurut gw, dunia karir gw ga bergantung pada kertas ijazah.. beda cerita kalo gw kerja di.. uhuk(?) ah sudahlah.. yang kalo mau naik jabatan harus punya dokumen dokumen tertentu..\
+Mungkin bakal ada juga yang komen
+
+> kuliah itu nyari ilmu kali.. bukan buat nyari ijazah
+
+Mungkin bener.. tapi gw merasa blm saatnya aja(?) atau juga gw merasa belajar dari yucub saat ini masih cukup.. makanya gw ttp kekeuh ga perlu S2
 
 dan anyway cerita ini berujung pada ade gw mau nyoba ambil kuliah negri dulu.. mana pilihanya ngeri ngeri pula.. tau dah kalo jadinya ttp kuliah ambil swasta atau gimana 🌚
 
