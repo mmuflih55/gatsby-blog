@@ -42,7 +42,7 @@ const BlogPostTemplate = props => {
                     marginTop: rhythm(-1),
                   }}
                 >
-                  {post.frontmatter.date},
+                  {post.frontmatter.date}
                 </p>
               </label>
               <div
