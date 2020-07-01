@@ -10,5 +10,8 @@ type: tech
 description: Mencoba bodypix di tensorflow
 ---
 ```
-yarn add @tensorflow-models/body-pixyarn add @tensorflow/tfjs-converteryarn add @tensorflow/tfjs-coreyarn add @tensorflow/tfjs-backend-webgl
+yarn add @tensorflow-models/body-pix
+yarn add @tensorflow/tfjs-converter
+yarn add @tensorflow/tfjs-core
+yarn add @tensorflow/tfjs-backend-webgl
 ```
