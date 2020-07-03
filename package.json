@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "author": "mmuflih",
   "dependencies": {
+    "@loadable/component": "^5.13.1",
     "@material-ui/core": "^4.6.0",
     "@material-ui/icons": "^4.5.1",
     "@mdx-js/mdx": "^1.5.1",
@@ -14,6 +15,7 @@
     "gatsby-image": "^2.2.31",
     "gatsby-plugin-feed": "^2.1.1",
     "gatsby-plugin-google-analytics": "^2.1.24",
+    "gatsby-plugin-loadable-components-ssr": "^2.1.0",
     "gatsby-plugin-manifest": "^2.0.29",
     "gatsby-plugin-material-ui": "^2.1.6",
     "gatsby-plugin-mdx": "^1.0.52",

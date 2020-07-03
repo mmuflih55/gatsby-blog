@@ -231,6 +231,8 @@ const Blog = props => {
 
   return (
     <Layout location={props.location} title={siteTitle}>
+      <div className="BG" />
+
       <Container style={{ paddingTop: 15 }}>
         <SEO title="Muflih's Personal Blog" image="/assets/icon.png" />
         <Grid container spacing={2}>

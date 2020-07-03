@@ -10,8 +10,7 @@ module.exports = {
     },
   },
   plugins: [
-    // `gatsby-plugin-postcss`,
-    // `gatsby-plugin-netlify-cms`,
+    "gatsby-plugin-loadable-components-ssr",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
