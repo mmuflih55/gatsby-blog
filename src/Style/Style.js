@@ -158,6 +158,9 @@ const useStyles = makeStyles(theme => ({
       display: "none",
     },
   },
+  discusContainer: {
+    padding: 12,
+  },
 }))
 
 export default useStyles

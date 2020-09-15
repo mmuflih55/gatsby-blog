@@ -8,12 +8,17 @@ import { rhythm, scale } from "../utils/typography"
 import { Container, Grid, Paper } from "@material-ui/core"
 import useStyles from "../Style/Style"
 import Img from "gatsby-image"
+import { DiscussionEmbed } from "disqus-react"
 
 const BlogPostTemplate = props => {
   const classes = useStyles()
   const post = props.data.mdx
   const siteTitle = props.data.site.siteMetadata.title
   const { previous, next } = props.pageContext
+  const disqusConfig = {
+    shortname: process.env.GATSBY_DISQUS_NAME,
+    config: { identifier: post.frontmatter.title },
+  }
 
   return (
     <Layout location={props.location} title={siteTitle}>
@@ -65,6 +70,9 @@ const BlogPostTemplate = props => {
               </div>
               <div className="detailPost">
                 <MDXRenderer>{post.body}</MDXRenderer>
+              </div>
+              <div className="discus-container">
+                <DiscussionEmbed {...disqusConfig} />
               </div>
               <ul
                 style={{

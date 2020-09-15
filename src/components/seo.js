@@ -58,8 +58,10 @@ function SEO({ description, lang, meta, keywords, title, image }) {
         {
           name: `image`,
           property: `og:image`,
-          content: image!==undefined?"https://mmuflih.com"+image:"https://mmuflih.com/assets/icon.png",
-
+          content:
+            image !== undefined
+              ? "https://mmuflih.com" + image
+              : "https://mmuflih.com/assets/icon.png",
         },
 
         {
@@ -84,8 +86,11 @@ function SEO({ description, lang, meta, keywords, title, image }) {
         },
         {
           name: `twitter:image`,
-          property:`twitter:image`,
-          content: image!==undefined?"https://mmuflih.com"+image:"https://mmuflih.com/assets/icon.png",
+          property: `twitter:image`,
+          content:
+            image !== undefined
+              ? "https://mmuflih.com" + image
+              : "https://mmuflih.com/assets/icon.png",
         },
       ]
         .concat(
@@ -97,7 +102,13 @@ function SEO({ description, lang, meta, keywords, title, image }) {
             : []
         )
         .concat(meta)}
-    />
+    >
+      <script
+        data-ad-client="ca-pub-2478817977793633"
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      ></script>
+    </Helmet>
   )
 }
 
