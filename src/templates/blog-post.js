@@ -16,9 +16,10 @@ const BlogPostTemplate = props => {
   const siteTitle = props.data.site.siteMetadata.title
   const { previous, next } = props.pageContext
   const disqusConfig = {
-    shortname: process.env.GATSBY_DISQUS_NAME,
+    shortname: "mmuflih",
     config: { identifier: post.frontmatter.title },
   }
+  console.log(disqusConfig)
 
   return (
     <Layout location={props.location} title={siteTitle}>

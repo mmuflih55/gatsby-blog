@@ -102,13 +102,7 @@ function SEO({ description, lang, meta, keywords, title, image }) {
             : []
         )
         .concat(meta)}
-    >
-      <script
-        data-ad-client="ca-pub-2478817977793633"
-        async
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-      ></script>
-    </Helmet>
+    ></Helmet>
   )
 }
 

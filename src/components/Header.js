@@ -18,6 +18,7 @@ import {
 import MenuIcon from "@material-ui/icons/Menu"
 import { Home, Person } from "@material-ui/icons"
 import useStyles from "../Style/Style"
+
 import { FaGithub, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa"
 
 const MenuAppBar = () => {
