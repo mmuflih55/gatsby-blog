@@ -10,7 +10,7 @@ type: tech
 description: Pengalaman gw membuat push notif untuk web dengan backend node js
 ---
 
-Jadi gw dpt tugas yg memerlukan sebuah notif, dan setelah berdiskusi akhirnya diputuskanlah buat pake push notif karena kebutuhanya simple juga.. jadilah gw explore gimana bikinya..\
+Jadi gw dpt tugas yg memerlukan sebuah notif, dan setelah berdiskusi akhirnya diputuskanlah buat pake push notif karena kebutuhanya simple juga.. jadilah gw explore gimana bikinya..
 btw, sebelum lanjutin baca gw mau ngasih tau dulu disini gw pake backend node js, dan blm pernah coba dengan bahasa lainnya..
 
 ok.. jadi, buat bikin push notif simplenya sbnernya cuma butuh beberapa fungsi yaitu [showNotification](https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification) dan [subscription](https://developer.mozilla.org/en-US/docs/Web/API/PushManager/subscribe) untuk di client side, dan sendNotification dari lib [web-push](https://github.com/web-push-libs/web-push)
@@ -23,7 +23,7 @@ simplenya, sebenernya munculin notif di browser itu cuma perlu
 ​serviceWorkerRegistration.showNotification(title, [options]);
 ```
 
-Tapi itu cuma berlaku buat munculin notifnya aja.. nah, gimana kalo kita pengen request show notif dari server?\
+Tapi itu cuma berlaku buat munculin notifnya aja.. nah, gimana kalo kita pengen request show notif dari server?
 yang kita perluin:
 
 1. **Subscription**
