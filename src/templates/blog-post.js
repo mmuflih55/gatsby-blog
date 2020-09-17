@@ -20,6 +20,13 @@ const BlogPostTemplate = props => {
     config: { identifier: post.frontmatter.title },
   }
 
+  useEffect(() => {
+    if (typeof window !== `undefined`) {
+      window.adsbygoogle = window.adsbygoogle || []
+      window.adsbygoogle.push({})
+    }
+  }, [])
+
   return (
     <Layout location={props.location} title={siteTitle}>
       <SEO
