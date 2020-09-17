@@ -37,6 +37,19 @@ const BlogPostTemplate = props => {
             }}
           >
             <Grid item xs={12} md={10}>
+              <script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+              ></script>
+              <div style={{ display: "flex", justifyContent: "center" }}>
+                <ins
+                  class="adsbygoogle"
+                  style={{ display: "inline-block", width: 728, height: 90 }}
+                  data-ad-client="ca-pub-2478817977793633"
+                  data-ad-slot="9825279909"
+                ></ins>
+              </div>
+
               <h1 style={{ marginTop: 10 }}>{post.frontmatter.title}</h1>
               <label>
                 <p
@@ -71,23 +84,17 @@ const BlogPostTemplate = props => {
               <div className="detailPost">
                 <MDXRenderer>{post.body}</MDXRenderer>
               </div>
-              <script
-                async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-              ></script>
-              <ins
-                className="adsbygoogle"
-                style={{ display: "block", textAlign: "center" }}
-                data-ad-layout="in-article"
-                data-ad-format="fluid"
-                data-ad-client="ca-pub-2478817977793633"
-                data-ad-slot="6126736179"
-              ></ins>
-              <script
-                dangerouslySetInnerHTML={{
-                  __html: "(adsbygoogle = window.adsbygoogle || []).push({});",
-                }}
-              />
+              <div style={{ margin: "12px 0" }}>
+                <ins
+                  className="adsbygoogle"
+                  style={{ display: "block", textAlign: "center" }}
+                  data-ad-layout="in-article"
+                  data-ad-format="fluid"
+                  data-ad-client="ca-pub-2478817977793633"
+                  data-ad-slot="6126736179"
+                ></ins>
+              </div>
+
               <div className="discus-container">
                 <DiscussionEmbed {...disqusConfig} />
               </div>
