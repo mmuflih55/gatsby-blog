@@ -37,10 +37,6 @@ const BlogPostTemplate = props => {
             }}
           >
             <Grid item xs={12} md={10}>
-              <script
-                async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-              ></script>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <ins
                   class="adsbygoogle"
