@@ -19,7 +19,6 @@ const BlogPostTemplate = props => {
     shortname: "mmuflih",
     config: { identifier: post.frontmatter.title },
   }
-  console.log(disqusConfig)
 
   return (
     <Layout location={props.location} title={siteTitle}>
@@ -72,6 +71,21 @@ const BlogPostTemplate = props => {
               <div className="detailPost">
                 <MDXRenderer>{post.body}</MDXRenderer>
               </div>
+              <script
+                async
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+              ></script>
+              <ins
+                className="adsbygoogle"
+                style={{ display: "block", textAlign: "center" }}
+                data-ad-layout="in-article"
+                data-ad-format="fluid"
+                data-ad-client="ca-pub-2478817977793633"
+                data-ad-slot="6126736179"
+              ></ins>
+              <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+              </script>
               <div className="discus-container">
                 <DiscussionEmbed {...disqusConfig} />
               </div>
