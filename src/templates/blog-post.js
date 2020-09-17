@@ -44,7 +44,12 @@ const BlogPostTemplate = props => {
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <ins
                   class="adsbygoogle"
-                  style={{ display: "inline-block", width: 728, height: 90 }}
+                  style={{
+                    display: "inline-block",
+                    width: 728,
+                    height: 90,
+                    backgroundColor: "transparent",
+                  }}
                   data-ad-client="ca-pub-2478817977793633"
                   data-ad-slot="9825279909"
                 ></ins>
