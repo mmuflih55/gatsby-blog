@@ -83,9 +83,11 @@ const BlogPostTemplate = props => {
                 data-ad-client="ca-pub-2478817977793633"
                 data-ad-slot="6126736179"
               ></ins>
-              <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-              </script>
+              <script
+                dangerouslySetInnerHTML={{
+                  __html: "(adsbygoogle = window.adsbygoogle || []).push({});",
+                }}
+              />
               <div className="discus-container">
                 <DiscussionEmbed {...disqusConfig} />
               </div>
