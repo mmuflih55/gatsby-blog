@@ -156,6 +156,13 @@ const Profile = props => {
                   objectFit: "cover",
                   width: "100%",
                   height: "100%",
+                  filter: "blur(3px)",
+                  WebkitFilter: "blur(3px)",
+                  MozFilter: "blur(3px)",
+                  OFilter: "blur(3px)",
+                  MsFilter: "blur(3px)",
+                  filter:
+                    'progid:DXImageTransform.Microsoft.Blur(PixelRadius="3")',
                 }}
               />
             </div>
@@ -169,7 +176,8 @@ const Profile = props => {
                 minHeight: "85vh",
                 width: "100%",
                 color: "white",
-                backdropFilter: "blur(4px) grayscale(0.3)",
+                backdropFilter: "blur(4px)",
+                backgroundColor: "rgba(0,0,0,0.6)",
               }}
             >
               <h1>Hi, I'm Muhammad Muflih</h1>
