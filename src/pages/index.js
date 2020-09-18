@@ -161,8 +161,6 @@ const Profile = props => {
                   MozFilter: "blur(3px)",
                   OFilter: "blur(3px)",
                   MsFilter: "blur(3px)",
-                  filter:
-                    'progid:DXImageTransform.Microsoft.Blur(PixelRadius="3")',
                 }}
               />
             </div>
