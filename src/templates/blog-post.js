@@ -46,7 +46,7 @@ const BlogPostTemplate = props => {
             <Grid item xs={12} md={10}>
               <div style={{ display: "flex", justifyContent: "center" }}>
                 <ins
-                  class="adsbygoogle"
+                  className="adsbygoogle"
                   style={{
                     display: "inline-block",
                     width: 728,

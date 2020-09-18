@@ -27,9 +27,8 @@ const useStyles = makeStyles(theme => ({
     },
   },
   skillsCon: {
-    width: 250,
-    height: 20,
-    margin: "0 20px 20px 20px",
+    width: "100%",
+    border: "1px groove #fff",
   },
   skillsBar: {
     transition: "0.5s",
@@ -38,8 +37,15 @@ const useStyles = makeStyles(theme => ({
       "linear-gradient(90deg, rgba(83,100,195,1) 9%, rgba(117,178,239,1) 92%)",
   },
   profileBg: {
-    background:
-      "linear-gradient(0deg, rgba(83,100,195,1) 8%, rgba(117,178,237,1) 90%)",
+    // background:
+    //   "linear-gradient(0deg, rgba(83,100,195,1) 8%, rgba(117,178,237,1) 90%)",
+    // background: "url(/img/topImg.jpeg)",
+    position: "absolute",
+    width: "100%",
+    height: "100%",
+    top: 0,
+    left: 0,
+    zIndex: -1,
   },
   loadingContainer: {
     display: "flex",

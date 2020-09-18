@@ -49,7 +49,7 @@ const MenuAppBar = () => {
         <List>
           {[
             { icon: <Home />, text: "Home", url: "/" },
-            { icon: <Person />, text: "Profile", url: "/profile" },
+            { icon: <Person />, text: "Blog", url: "/blog" },
           ].map((item, i) => (
             <ListItem button key={i} component={Link} to={item.url}>
               <ListItemIcon>{item.icon}</ListItemIcon>
@@ -96,9 +96,9 @@ const MenuAppBar = () => {
                   Home
                 </Typography>
               </ButtonBase>
-              <ButtonBase disableRipple component={Link} to="/profile">
+              <ButtonBase disableRipple component={Link} to="/blog">
                 <Typography className={classes.tab} noWrap>
-                  Profile
+                  Blog
                 </Typography>
               </ButtonBase>
             </div>
