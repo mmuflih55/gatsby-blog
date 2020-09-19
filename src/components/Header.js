@@ -7,7 +7,7 @@ import {
   AppBar,
   Toolbar,
   useScrollTrigger,
-  IconButton,
+  // IconButton,
   ButtonBase,
   List,
   ListItem,
@@ -15,7 +15,7 @@ import {
   ListItemIcon,
   ListItemText,
 } from "@material-ui/core"
-import MenuIcon from "@material-ui/icons/Menu"
+// import MenuIcon from "@material-ui/icons/Menu"
 import { Home, Person } from "@material-ui/icons"
 import useStyles from "../Style/Style"
 
@@ -79,7 +79,7 @@ const MenuAppBar = () => {
       <Slide appear={false} direction="down" in={!trigger}>
         <AppBar color="inherit">
           <Toolbar>
-            <div className={classes.sectionMobile}>
+            {/* <div className={classes.sectionMobile}>
               <IconButton
                 edge="start"
                 className={classes.menuButton}
@@ -89,8 +89,9 @@ const MenuAppBar = () => {
               >
                 <MenuIcon />
               </IconButton>
-            </div>
-            <div className={classes.sectionDesktop}>
+            </div> */}
+            {/* <div className={classes.sectionDesktop}> */}
+            <div>
               <ButtonBase disableRipple component={Link} to="/">
                 <Typography className={classes.tab} noWrap>
                   Home

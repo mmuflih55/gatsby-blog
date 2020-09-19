@@ -23,6 +23,7 @@ const SkillPanel = () => {
     flutter: 0,
     cordova: 0,
     php: 0,
+    node: 0,
     java: 0,
     go: 0,
   })
@@ -42,22 +43,17 @@ const SkillPanel = () => {
   }, [feinView, beinView])
 
   return (
-    <div>
+    <>
       <SEO title="My Profile and skills" />
-      <Grid
-        container
-        spacing={3}
-        style={{ padding: 20 }}
-        justify="space-between"
-      >
+      <Grid container style={{ padding: 20 }} justify="space-between">
         <Grid item xs={12} md={12}>
           <h3 style={{ margin: 0 }}>Skills</h3>
         </Grid>
 
         <Grid item xs={12} md={12}>
-          <h5 style={{ margin: 0 }}>Front End :</h5>
+          <h5 style={{ margin: "8px 0" }}>Front End :</h5>
         </Grid>
-        <Grid item xs={12} md={6} className={classes.center}>
+        <Grid item xs={12} md={4} className={classes.center}>
           <b>React</b>
           <div className={classes.skillsCon}>
             <div
@@ -73,7 +69,7 @@ const SkillPanel = () => {
             ></div>
           </div>
         </Grid>
-        <Grid item xs={12} md={6} className={classes.center}>
+        <Grid item xs={12} md={4} className={classes.center}>
           <b>Cordova</b>
           <div className={classes.skillsCon}>
             <div
@@ -90,9 +86,9 @@ const SkillPanel = () => {
           </div>
         </Grid>
         <Grid ref={feref} item xs={12} md={12}>
-          <h5 style={{ margin: 0 }}>Back End :</h5>
+          <h5 style={{ margin: "8px 0" }}>Back End :</h5>
         </Grid>
-        <Grid item xs={12} md={6} className={classes.center}>
+        <Grid item xs={12} md={4} className={classes.center}>
           <b>PHP</b>
           <div className={classes.skillsCon}>
             <div
@@ -108,7 +104,7 @@ const SkillPanel = () => {
             ></div>
           </div>
         </Grid>
-        <Grid item xs={12} md={6} className={classes.center}>
+        <Grid item xs={12} md={4} className={classes.center}>
           <b>Java (Spring)</b>
           <div className={classes.skillsCon}>
             <div
@@ -127,7 +123,7 @@ const SkillPanel = () => {
         </Grid>
       </Grid>
       <div ref={beref}></div>
-    </div>
+    </>
   )
 }
 
@@ -136,8 +132,8 @@ const Profile = props => {
 
   return (
     <Layout location={props.location} title="portofilio">
-      <Grid container justify="center" justifyContent="center">
-        <Grid item xs={12} md={12} justify="center">
+      <Grid container justify="center">
+        <Grid item xs={12} md={12}>
           <div
             style={{
               position: "relative",
@@ -184,9 +180,9 @@ const Profile = props => {
                 {new Date().getMonth() - 2} years experiences
               </h2>
               <h2>A freelancer, digital nomads wannabe</h2>
-              <h2>
+              <h3>
                 <FaMapMarkerAlt /> Pekalongan, Indonesia
-              </h2>
+              </h3>
               <div style={{ display: "flex", flexDirection: "row" }}>
                 <a
                   href="https://github.com//mmuflih55"
