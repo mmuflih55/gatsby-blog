@@ -2,9 +2,7 @@
 path: /remote-worker
 date: 2020-09-05T05:26:59.378Z
 title: Pengalaman Menjadi Remote Worker
-tags:
-  - tech
-  - info
+tags: ["info", "worklife"]
 thumbnail: /assets/header.jpg
 type: blog
 description: Cerita pengalaman gw menjadi remote worker

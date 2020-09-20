@@ -2,7 +2,7 @@
 path: review/milanpizza
 date: 2019-11-10T23:47:11.662Z
 title: Mencoba Milan Pizzeria Depok
-tags: "['review','food']"
+tags: ["review", "food"]
 thumbnail: /assets/photo_2019-11-11-06.49.23.jpeg
 type: blog
 description: Pengalaman mencoba makan di milan pizzeria cafe
