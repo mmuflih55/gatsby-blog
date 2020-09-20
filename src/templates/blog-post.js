@@ -23,7 +23,7 @@ const BlogPostTemplate = props => {
   useEffect(() => {
     if (typeof window !== `undefined`) {
       window.adsbygoogle = window.adsbygoogle || []
-      window.adsbygoogle.push({})
+      window.adsbygoogle.push({}, {})
     }
   }, [])
 
@@ -45,7 +45,7 @@ const BlogPostTemplate = props => {
           >
             <Grid item xs={12} md={10}>
               <div style={{ display: "flex", justifyContent: "center" }}>
-                {/* <ins
+                <ins
                   className="adsbygoogle"
                   style={{
                     display: "inline-block",
@@ -55,7 +55,7 @@ const BlogPostTemplate = props => {
                   }}
                   data-ad-client="ca-pub-2478817977793633"
                   data-ad-slot="9825279909"
-                ></ins> */}
+                ></ins>
               </div>
 
               <h1 style={{ marginTop: 10 }}>{post.frontmatter.title}</h1>

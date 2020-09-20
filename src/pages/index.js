@@ -12,6 +12,7 @@ import {
 import { Grid } from "@material-ui/core"
 import { useInView } from "react-intersection-observer"
 import SEO from "../components/seo"
+import Img from "gatsby-image"
 
 const SkillPanel = () => {
   const classes = useStyles()
@@ -128,6 +129,7 @@ const SkillPanel = () => {
 }
 
 const Profile = props => {
+  const imageHeader = props.data.imageSharp
   const classes = useStyles()
 
   return (
@@ -145,10 +147,15 @@ const Profile = props => {
             }}
           >
             <div className={classes.profileBg}>
-              <img
+              <Img
                 alt="header bg"
-                src="/img/topImg.jpeg"
+                objectFit={"cover"}
+                draggable={true}
                 style={{
+                  width: "100%",
+                  height: "100%",
+                }}
+                imgStyle={{
                   objectFit: "cover",
                   width: "100%",
                   height: "100%",
@@ -158,7 +165,12 @@ const Profile = props => {
                   OFilter: "blur(3px)",
                   MsFilter: "blur(3px)",
                 }}
+                fixed={imageHeader.fixed}
               />
+              {/* <img
+                alt="header bg"
+                src="/img/topImg.jpeg"               
+              /> */}
             </div>
             <div
               style={{
@@ -268,3 +280,20 @@ const Profile = props => {
 }
 
 export default Profile
+
+export const pageQuery = graphql`
+  query ImageQuery {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+    imageSharp(fixed: { originalName: { eq: "topImg.jpeg" } }) {
+      id
+      fixed {
+        ...GatsbyImageSharpFixed
+      }
+    }
+  }
+`
