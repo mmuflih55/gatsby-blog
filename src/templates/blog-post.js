@@ -23,7 +23,8 @@ const BlogPostTemplate = props => {
   useEffect(() => {
     if (typeof window !== `undefined`) {
       window.adsbygoogle = window.adsbygoogle || []
-      window.adsbygoogle.push({}, {})
+      window.adsbygoogle.push({})
+      window.adsbygoogle.push({})
     }
   }, [])
 
@@ -110,6 +111,7 @@ const BlogPostTemplate = props => {
                 style={{
                   display: `flex`,
                   flexWrap: `wrap`,
+                  backgroundColor: "transparent",
                   justifyContent: `space-between`,
                   listStyle: `none`,
                   padding: 0,
