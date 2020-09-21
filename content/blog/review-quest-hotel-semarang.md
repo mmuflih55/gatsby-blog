@@ -2,14 +2,12 @@
 path: quest_hotel_semarang
 date: 2020-09-20T13:54:05.874Z
 title: Review Quest Hotel Semarang
-tags:
-  - hotel
-  - review
-  - traveling
+tags: ["hotel", "review", "traveling"]
 thumbnail: /assets/photo_2020-09-21-11.18.31.jpeg
 type: blog
 description: Pengalaman menginap di Quest Hotel semarang
 ---
+
 Jadi awalnya gimana gw bisa nemu Quest hotel ini adalah bini liat hotel di Agoda.. kemudian liat ada diskonan kamar deluxe dari 1,2 jadi sekitar 300, kalo pake yg + breakfast jadi sekitar 390 lah..
 
 Karna tertarik dengan diskon yang lumayan gede pesen lah akhirnya... eh pas buka apps lain baru sadar.. ternyata harga aslinya emg sgituan 😂 agak nyesel karna terburu buru pesen.. tapi bini ttp positif thingking meski dikibulin harga asli sama agoda.. apps ini ttp nawarin harga paling murah, jadilah kita nginep di Quest hotel.
@@ -38,11 +36,9 @@ Untuk sarapan tersedia jam 6.30, standard sih.. kayak nasgor, bubur, kopi, teh d
 
 Beberapa kesan buruk yang gw dapatkan saat menginap disini:
 
-* Kolam di jadwal buka jam 6.00, tetapi waktu cek belum buka.. sudah hubungi receptionist dan minta tolong di buka kan tetapi ujung ujungnya baru dibuka 6.45
-* Kolam nya agak sedikit kotor
+- Kolam di jadwal buka jam 6.00, tetapi waktu cek belum buka.. sudah hubungi receptionist dan minta tolong di buka kan tetapi ujung ujungnya baru dibuka 6.45
+- Kolam nya agak sedikit kotor
 
 Semua keluhan gw kayanya di kolam.. mungkin karna lagi suasana gini jadi kolam sepi makanya perawatan kolamnya kurang..
-
-
 
 Overall sih lumayan ok.. segitu aja review kali ini, terima kasih

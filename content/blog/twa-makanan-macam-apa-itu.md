@@ -2,7 +2,7 @@
 path: tech/twa
 date: 2019-11-13T15:24:56.771Z
 title: TWA? Makanan macam apa itu??
-tags: ["tech", "info"]
+tags: ["review", "tutorial"]
 thumbnail: /assets/logo2.png
 type: tech
 description: Pengalaman mencoba Trusted Web Activity...

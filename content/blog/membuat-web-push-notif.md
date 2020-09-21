@@ -2,7 +2,7 @@
 path: webpushnotif
 date: 2020-09-15T11:19:07.487Z
 title: Membuat Web Push Notif
-tags: ["tech", "info", "tutorial"]
+tags: ["javascript", "tutorial"]
 thumbnail: /assets/367-3673273_process-icon-service-worker-logo.png
 type: tech
 description: Pengalaman gw membuat push notif untuk web dengan backend node js

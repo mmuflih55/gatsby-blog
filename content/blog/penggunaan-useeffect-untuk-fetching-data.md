@@ -2,7 +2,7 @@
 path: tutor/fetchwithhooks
 date: 2019-11-10T01:13:56.024Z
 title: Penggunaan useEffect untuk fetching data
-tags: ["tech", "info", "tutorial"]
+tags: ["react", "tutorial"]
 thumbnail: /assets/react.png
 type: tech
 description: Contoh penggunaan useEffect untuk fetching data

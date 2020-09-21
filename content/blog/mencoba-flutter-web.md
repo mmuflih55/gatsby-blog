@@ -2,7 +2,7 @@
 path: tech/flutterWeb
 date: 2019-11-17T16:57:52.118Z
 title: Mencoba Flutter Web
-tags: ["tech", "info"]
+tags: ["review", "flutter"]
 thumbnail: /assets/google-flutter-logo.png
 type: tech
 description: Pengalaman mencoba flutter web

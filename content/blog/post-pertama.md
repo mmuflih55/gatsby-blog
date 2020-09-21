@@ -2,7 +2,7 @@
 path: firstpost
 date: 2019-11-08T06:51:00.769Z
 title: Post Pertama
-tags: ["info"]
+tags: ["random"]
 thumbnail: /assets/pexels-photo-210661.jpeg
 type: blog
 description: post pertama

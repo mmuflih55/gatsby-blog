@@ -2,7 +2,7 @@
 path: blog/se-kuliah
 date: 2020-06-15T20:49:05.346Z
 title: "Jadi Software Engineer, kuliah penting ga?"
-tags: ["tech", "info"]
+tags: ["my opinion"]
 thumbnail: /assets/boy-studying-with-book_113065-238.jpg
 type: blog
 description: pendapat gw tentang penting ga nya kuliah bagi Software Engineer

@@ -2,7 +2,7 @@
 path: next-and-gatsby
 date: 2020-06-15T17:45:16.113Z
 title: Next dan Gatsby bedanya apa?
-tags: ["tech", "info"]
+tags: ["info", "react"]
 thumbnail: /assets/react.png
 type: tech
 description: perbedaan Next dan Gatsby

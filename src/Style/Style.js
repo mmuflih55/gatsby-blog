@@ -167,6 +167,44 @@ const useStyles = makeStyles(theme => ({
   discusContainer: {
     padding: 12,
   },
+  Tags: {
+    outline: "none",
+    padding: "4px 8px",
+    color: "white",
+    border: "none",
+    backgroundColor: "#ccc",
+    borderRadius: 4,
+    cursor: "pointer",
+    margin: "0 4px",
+    transition: "0.3s",
+
+    "&:hover": {
+      padding: "6px 12px",
+      border: "none",
+    },
+    "&:active": {
+      border: "none",
+      outline: "none",
+    },
+  },
+  tagsActive: {
+    outline: "none",
+    padding: "4px 8px",
+    color: "white",
+    borderRadius: 4,
+    border: "none",
+    cursor: "pointer",
+    margin: "0 4px",
+    backgroundColor: "#6ba1d6",
+    transition: "0.3s",
+    "&:hover": {
+      padding: "6px 12px",
+    },
+    "&:active": {
+      border: "none",
+      outline: "none",
+    },
+  },
 }))
 
 export default useStyles

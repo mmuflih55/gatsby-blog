@@ -2,19 +2,17 @@
 path: room_inc_semarang
 date: 2020-09-21T04:29:06.174Z
 title: Review Room.Inc Semarang
-tags:
-  - hotel
-  - review
-  - traveling
+tags: ["hotel", "review", "traveling"]
 thumbnail: /assets/photo_2020-09-21-11.18.14.jpeg
 type: blog
 description: Pengalaman menginap di Quest Hotel semarang
 ---
-Di hari ke dua gw jalan jalan ke Semarang gw memutuskan menginap di Room.Inc\
+
+Di hari ke dua gw jalan jalan ke Semarang gw memutuskan menginap di Room.Inc
 Room.Inc ini berada di DP Mall.. jadi enak gitu kalo pengen jajan tinggal turun aja masuk mall (meski ga terlalu banyak jajananya)
 
-untuk masuk ke lobby Room.Inc sendiri kita harus naik lift dulu.\
-Awal masuk ke lobby reaksi awal: "Uwow\~ kece sekali\~"\
+untuk masuk ke lobby Room.Inc sendiri kita harus naik lift dulu.
+Awal masuk ke lobby reaksi awal: "Uwow\~ kece sekali\~"
 disini ada semacem cafe dan banyak kursi buat nongkrong, disini juga ada beberapa mainan kayak dart dan billiard juga ada gym
 
 ![lobby room.inc](/assets/photo_2020-09-21-11.18.16.jpeg)
@@ -25,13 +23,12 @@ disini ada semacem cafe dan banyak kursi buat nongkrong, disini juga ada beberap
 
 Waktu checkin kita bakal diusuruh pilih menu untuk sarapan.. kayak nasi goreng, nasi uduk, dll.
 
-Gw pesen tipe kamar standard btw. Setelah checkin kita bakal dikasih 1 kunci, setelah itu gw langsung cau ke kamer.. 
+Gw pesen tipe kamar standard btw. Setelah checkin kita bakal dikasih 1 kunci, setelah itu gw langsung cau ke kamer..
 
-First Impression sama kamernya.. kamernya lumayan kece.. gw merasa designya kayak kekinian gitu, tapi setelah menelaah(?) lebih jauh gw merasa kamernya agak kecil, mungkin karena hari sebelumnya gw abis nginep di [Quest Hotel](/review-quest-hotel-semarang/), gw jadi merasa kamernya kecil..
+First Impression sama kamernya.. kamernya lumayan kece.. gw merasa designya kayak kekinian gitu, tapi setelah menelaah(?) lebih jauh gw merasa kamernya agak kecil, mungkin karena hari sebelumnya gw abis nginep di [Quest Hotel](/blog/review-quest-hotel-semarang/), gw jadi merasa kamernya kecil..
 
 ![](/assets/photo_2020-09-21-11.18.14.jpeg)
 
-\
 Sama kaya di Quest, disini kita cuma dikasih teko air, bedanya disini airnya udah diisi.. kita cuma perlu ambil di lorong ketika airnya abis atau ketika butuh air panas
 
 ![](/assets/photo_2020-09-21-11.18.08.jpeg)

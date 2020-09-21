@@ -2,7 +2,7 @@
 path: tech/reduce
 date: 2020-04-15T13:52:25.666Z
 title: Membuat ulang reduce function
-tags: ["tech", "info", "tutorial"]
+tags: ["javascript", "tutorial"]
 thumbnail: /assets/js_800x800.jpg
 type: tech
 description: >-
