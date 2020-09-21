@@ -42,3 +42,7 @@ Beberapa kesan buruk yang gw dapatkan saat menginap disini:
 * Kolam nya agak sedikit kotor
 
 Semua keluhan gw kayanya di kolam.. mungkin karna lagi suasana gini jadi kolam sepi makanya perawatan kolamnya kurang..
+
+
+
+Overall sih lumayan ok.. segitu aja review kali ini, terima kasih
