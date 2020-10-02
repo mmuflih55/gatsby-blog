@@ -175,7 +175,7 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: "#ccc",
     borderRadius: 4,
     cursor: "pointer",
-    margin: "0 4px",
+    margin: "4px",
     transition: "0.3s",
 
     "&:hover": {
@@ -194,7 +194,7 @@ const useStyles = makeStyles(theme => ({
     borderRadius: 4,
     border: "none",
     cursor: "pointer",
-    margin: "0 4px",
+    margin: "4px",
     backgroundColor: "#6ba1d6",
     transition: "0.3s",
     "&:hover": {
